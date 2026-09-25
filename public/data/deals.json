@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T07:32:35.625Z",
+  "updatedAt": "2026-09-25T07:44:54.425Z",
   "sources": [
     {
       "id": "dealabs",
@@ -8,7 +8,31 @@
       "url": "https://www.dealabs.com/rss",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
+    },
+    {
+      "id": "dealabs-phones",
+      "name": "Dealabs · téléphonie",
+      "url": "https://www.dealabs.com/rss/groupe/telephonie",
+      "status": "ok",
+      "count": 30,
+      "checkedAt": "2026-09-25T07:44:54.425Z"
+    },
+    {
+      "id": "dealabs-gaming",
+      "name": "Dealabs · consoles et jeux vidéo",
+      "url": "https://www.dealabs.com/rss/groupe/consoles-jeux-video",
+      "status": "ok",
+      "count": 30,
+      "checkedAt": "2026-09-25T07:44:54.425Z"
+    },
+    {
+      "id": "dealabs-tech",
+      "name": "Dealabs · high-tech",
+      "url": "https://www.dealabs.com/rss/groupe/high-tech",
+      "status": "ok",
+      "count": 30,
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     },
     {
       "id": "sony-wh1000xm5-black",
@@ -16,7 +40,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     },
     {
       "id": "nintendo-switch-oled-white",
@@ -24,7 +48,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     },
     {
       "id": "apple-airpods-pro2-usbc",
@@ -32,7 +56,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     },
     {
       "id": "sony-ps5-slim-1tb-disc-cfi2016",
@@ -40,7 +64,7 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     },
     {
       "id": "sony-dualsense-white-standard",
@@ -48,7 +72,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Blanc/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Blanc%20PS5?id=004487175&grade=B",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     },
     {
       "id": "sony-dualsense-blue-standard",
@@ -56,7 +80,15 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Bleu/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Bleu%20PS5?grade=B&id=005116764",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-09-25T07:32:35.625Z"
+      "checkedAt": "2026-09-25T07:44:54.425Z"
+    },
+    {
+      "id": "rebuy-auto-0a7b95cee9d46410b994",
+      "name": "Rebuy · recherche automatique · Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
+      "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
+      "status": "ok",
+      "count": 1,
+      "checkedAt": "2026-09-25T07:44:54.425Z"
     }
   ],
   "referencePrices": [
@@ -70,7 +102,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "title": "Sony WH-1000XM5 noir",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -87,7 +119,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "title": "Nintendo Switch OLED 64 Go [incl. une manette blanc et blanc] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -104,7 +136,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "title": "Apple AirPods Pro 2 [avec boitier MagSafe USB-C] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -121,36 +153,59 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "title": "Sony PlayStation 5 slim 1 To [Édition disque incl. manette sans fil DualSense] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
         "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
         "Console avec DualSense blanche d’origine, câble USB, alimentation d’origine, HDMI 2.1 et pieds horizontaux. Questionnaire vérifié le 25/09/2026 ; aucun produit mis en vente."
       ]
+    },
+    {
+      "type": "buyback",
+      "provider": "Rebuy",
+      "productKey": "rebuy-auto-0a7b95cee9d46410b994",
+      "price": 520.52,
+      "currency": "EUR",
+      "country": "FR",
+      "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
+      "title": "Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
+      "titleVerified": true,
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "freeShipping": false,
+      "assumptions": [
+        "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+        "Correspondance automatique du titre : modèle, capacité et couleur. Version régionale, connectivité, facture et accessoires à confirmer avant achat."
+      ]
     }
   ],
-  "excludedCount": 17,
+  "excludedCount": 56,
   "deals": [
     {
-      "id": "6a98a9f2c500240ffa27",
-      "title": "T-shirt Reebok Athlete Speed Logo Homme - Noir, taille XS",
-      "url": "https://www.dealabs.com/bons-plans/t-shirt-reebok-athlete-speed-logo-homme-noir-taille-xs-3419311",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Mode & Accessoires",
-      "price": 9.85,
+      "id": "50de57b2cb92a3d9c1b3",
+      "title": "Appareil photo Fujifilm X-M5 avec objectif XC 15-45mm Silver",
+      "url": "https://www.dealabs.com/bons-plans/fujifilm-x-m5-avec-objectif-xc-15-45mm-silver-a-89991-via-code-fuji10-3419318",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "MN Photo Vidéo",
+      "category": "High-Tech",
+      "price": 899.91,
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
-      "shipping": 0,
-      "publishedAt": "2026-09-25T07:27:59.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:39:39.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
-      "firstSeen": "2026-09-25T07:32:35.625Z",
+      "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -163,7 +218,94 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "eff89cf3c276da6567a3",
+      "title": "Sèche-linge pompe à chaleur Beko D3H19302W - 9KG",
+      "url": "https://www.dealabs.com/bons-plans/seche-linge-pompe-a-chaleur-beko-d3h19302w-9kg-3419316",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Veepee",
+      "category": "Maison & Habitat",
+      "price": 249.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:31:05.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "6a98a9f2c500240ffa27",
+      "title": "T-shirt Reebok Athlete Speed Logo Homme - Noir, taille XS",
+      "url": "https://www.dealabs.com/bons-plans/t-shirt-reebok-athlete-speed-logo-homme-noir-taille-xs-3419311",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Mode & Accessoires",
+      "price": 9.85,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:27:59.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:32:35.625Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -182,12 +324,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:17:40.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -200,7 +347,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -250,8 +398,8 @@
       "id": "f97b4563c544443bba4c",
       "title": "SSD Interne Patriot P400 Lite 2 To",
       "url": "https://www.dealabs.com/bons-plans/ssd-patriot-p400-lite-2-to-ssd-3419306",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Alternate",
       "category": "High-Tech",
       "price": 199.9,
@@ -259,12 +407,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:15:14.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -277,7 +430,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -296,12 +450,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:12:15.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -314,7 +473,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -324,8 +484,8 @@
       "id": "0ab4924332eabd5bf013",
       "title": "Carte mère Gigabyte B650 Eagle AX AM5",
       "url": "https://www.dealabs.com/bons-plans/carte-mere-gigabyte-b650-eagle-ax-am5-3419300",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Alternate",
       "category": "High-Tech",
       "price": 99.9,
@@ -333,12 +493,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:05:31.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:06:49.990Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -351,7 +516,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -370,12 +536,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:03:01.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -388,7 +559,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -398,8 +570,8 @@
       "id": "d96955c5cf0e3b646b3c",
       "title": "Processeur AMD Ryzen 5 7500X3D, 4,0 GHz - 4,5 GHz Turbo Boost",
       "url": "https://www.dealabs.com/bons-plans/processeur-amd-ryzen-5-7500x3d-40-ghz-45-ghz-turbo-boost-3419299",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Alternate",
       "category": "High-Tech",
       "price": 199.9,
@@ -407,12 +579,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:02:44.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -425,7 +602,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -444,12 +622,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:58:07.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -462,7 +645,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -481,12 +665,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:56:16.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -499,7 +688,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -509,8 +699,8 @@
       "id": "7ce2b84fabfd5cb090cf",
       "title": "Enceinte portable Bose SoundLink Plus - Noir (Via Coupon - 164,59€ pour les Membres JoyPlus)",
       "url": "https://www.dealabs.com/bons-plans/enceinte-portable-bose-soundlink-plus-noir-via-coupon-16459-eur-en-tant-que-membre-joyplus-3419292",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "JoyBuy",
       "category": "High-Tech",
       "price": 169.99,
@@ -518,12 +708,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:52:44.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -536,7 +731,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -546,8 +742,8 @@
       "id": "81c77b942122ce706f84",
       "title": "Boitier PC Corsair 6500X - Moyen-Tour, ATX, Double Verre Trempé, USB C, Bambou, Blanc",
       "url": "https://www.dealabs.com/bons-plans/boitier-pc-corsair-6500x-moyen-tour-atx-double-verre-trempe-usb-c-bambou-blanc-3419290",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "PcComponentes",
       "category": "High-Tech",
       "price": 78,
@@ -555,12 +751,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:52:08.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -573,7 +774,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -592,12 +794,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:51:52.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -610,7 +817,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -620,8 +828,8 @@
       "id": "e64bce35a62d1dbfc651",
       "title": "TV 55\" TCL 55C7L 2026 - Mini LED 4K, HDR 2700 nits, 800 zones de gradation locale, 144 Hz, HVA 2.0 Pro, son Bang & Olufsen, Google TV",
       "url": "https://www.dealabs.com/bons-plans/tv-55-tcl-55c7l-2026-mini-led-4k-hdr-2700-nits-800-zones-de-gradation-locale-144-hz-hva-20-pro-son-bang-olufsen-google-tv-3419288",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "JoyBuy",
       "category": "High-Tech",
       "price": 699.99,
@@ -629,12 +837,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": 0,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:48:22.000Z",
-      "observedAt": "2026-09-25T07:32:35.625Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
       "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -647,7 +860,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -657,8 +871,8 @@
       "id": "12a6c3d3e5206d95eb78",
       "title": "Smartphone 6,9\" Samsung Galaxy S25 Ultra - RAM 12 Go, 256 Go, Titanium Black",
       "url": "https://www.dealabs.com/bons-plans/samsung-galaxy-s25-ultra-titanium-black-256-go-3419273",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Amazon.it",
       "category": "High-Tech",
       "price": 718.92,
@@ -666,39 +880,69 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:06:38.000Z",
-      "observedAt": "2026-09-25T07:08:15.687Z",
-      "productKey": null,
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": "rebuy-auto-0a7b95cee9d46410b994",
       "firstSeen": "2026-09-25T06:32:33.807Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "matched",
+        "searchUrl": "https://www.rebuy.fr/vendre/rechercher?query=samsung%20galaxy%20s25%20ultra%20256%20Go"
+      },
       "analysis": {
-        "status": "unverified",
+        "status": "unprofitable",
         "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
+        "comparisonVerified": true,
+        "resale": 520.52,
+        "cost": 728.92,
+        "fees": 34.03,
+        "profit": -242.43,
+        "roi": -33.26,
         "score": null,
-        "liquidity": "Non mesurée",
+        "liquidity": "Reprise professionnelle, sous contrôle",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Bénéfice inférieur à 30 €",
+          "Rendement inférieur à 25 %"
         ],
-        "evidence": null,
-        "assumptions": []
+        "evidence": {
+          "type": "buyback",
+          "provider": "Rebuy",
+          "productKey": "rebuy-auto-0a7b95cee9d46410b994",
+          "price": 520.52,
+          "currency": "EUR",
+          "country": "FR",
+          "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
+          "title": "Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
+          "titleVerified": true,
+          "observedAt": "2026-09-25T07:44:54.425Z",
+          "freeShipping": false,
+          "assumptions": [
+            "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+            "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+            "Correspondance automatique du titre : modèle, capacité et couleur. Version régionale, connectivité, facture et accessoires à confirmer avant achat."
+          ]
+        },
+        "assumptions": [
+          "Estimation de rachat non contractuelle, sous réserve de contrôle de l’état, des accessoires et de l’éligibilité du vendeur.",
+          "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+          "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+          "Correspondance automatique du titre : modèle, capacité et couleur. Version régionale, connectivité, facture et accessoires à confirmer avant achat.",
+          "Transport entrant estimé : 10 € ; à confirmer à la commande.",
+          "Provision de risque : 5 % de la revente. Calcul avant fiscalité et rémunération du temps. Stock et prix à reconfirmer avant achat."
+        ],
+        "feeRate": 0,
+        "outbound": 8,
+        "inbound": 10
       }
     },
     {
       "id": "dba528c94b8a22d2dbd9",
       "title": "Clive'n' Wrench sur PS5 (Vendeur Tiers)",
       "url": "https://www.dealabs.com/bons-plans/jeu-video-numskull-clive-n-wrench-ps5-plateforme-3d-un-joueur-vendeur-tiers-3419270",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
       "merchant": "Boulanger",
       "category": "Consoles & Jeux vidéo",
       "price": 17.2,
@@ -706,14 +950,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:03:37.000Z",
-      "observedAt": "2026-09-25T07:08:15.687Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -726,8 +973,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -777,8 +1024,8 @@
       "id": "7041fa1e2f6665e800a8",
       "title": "Souris sans fil Logitech G G305 Lightspeed - 12000 PPP, Ultra-Léger, 6 Boutons, Noir",
       "url": "https://www.dealabs.com/bons-plans/souris-gamer-logitech-g-g305-lightspeed-000-ppp-ultra-leger-6-boutons-3419263",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Amazon",
       "category": "High-Tech",
       "price": 29.99,
@@ -786,14 +1033,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:48:24.000Z",
-      "observedAt": "2026-09-25T07:04:50.358Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -806,8 +1056,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -817,8 +1067,8 @@
       "id": "2a2d7fa32ad8a3053255",
       "title": "TV 65\" TCL 65C89K - Mini LED, 65\"",
       "url": "https://www.dealabs.com/bons-plans/65c89k-tv-mini-led-tcl-65-pouces-3419261",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Darty",
       "category": "High-Tech",
       "price": 899.99,
@@ -826,14 +1076,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:47:04.000Z",
-      "observedAt": "2026-09-25T06:46:46.456Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -846,8 +1099,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -937,8 +1190,8 @@
       "id": "09249d186fa1c972337d",
       "title": "PC Portable 16\" Asus Tuf Gaming A16 - RTX 4050 6Go, Intel Core 5 210H, RAM 16 Go, 512 Go SSD",
       "url": "https://www.dealabs.com/bons-plans/pc-portable-gamer-asus-tuf-gaming-f16-tuf607-sans-windows-16-wuxga-rtx-4050-6go-intel-core-5-210h-ram-16go-512go-ssd-3419242",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
       "merchant": "Cdiscount",
       "category": "High-Tech",
       "price": 834.99,
@@ -946,14 +1199,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:35:12.000Z",
-      "observedAt": "2026-09-25T06:46:46.456Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -966,8 +1222,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -1017,8 +1273,8 @@
       "id": "b2acd8571c3fc1020a89",
       "title": "Manette sans fil DualSense Edition limitée Icon Blue - pour PS5",
       "url": "https://www.dealabs.com/bons-plans/manette-sans-fil-dualsense-edition-limitee-icon-blue-pour-ps5-3419256",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
       "merchant": "Carrefour",
       "category": "Consoles & Jeux vidéo",
       "price": 79.99,
@@ -1026,14 +1282,17 @@
       "country": "FR",
       "condition": "new",
       "shipping": null,
+      "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:24:20.000Z",
-      "observedAt": "2026-09-25T06:46:46.456Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1046,8 +1305,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -1092,6 +1351,1126 @@
         "evidence": null,
         "assumptions": []
       }
+    },
+    {
+      "id": "1fd7f6ba3eaf43e0aa06",
+      "title": "Pragmata sur PS5",
+      "url": "https://www.dealabs.com/bons-plans/pragmata-sur-ps5-3419218",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "Amazon",
+      "category": "Consoles & Jeux vidéo",
+      "price": 43.39,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T00:51:16.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "46406074b7ea56838af0",
+      "title": "Mémoire RAM Corsair Vengeance DDR5 - 32GB (2x16GB), 6000MHz, CL36, Intel XMP, Blanc",
+      "url": "https://www.dealabs.com/bons-plans/corsair-vengeance-ddr5-32gb-2x16gb-6000mhz-cl36-memoire-ram-intel-xmp-blanc-3419215",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Outlet PC",
+      "category": "High-Tech",
+      "price": 399,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T00:06:29.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "7989abf7e885367ba53b",
+      "title": "Smartphone Google pixel 10a 128g",
+      "url": "https://www.dealabs.com/bons-plans/google-pixel-10a-128g-3419202",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Google Store",
+      "category": "High-Tech",
+      "price": 399.2,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T22:07:44.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "b053fe8fb837e70bf4b4",
+      "title": "Écran PC 31,5\" Acer incurvé ED320Q - FHD, 240Hz, VA, FreeSync Premium, HDR10",
+      "url": "https://www.dealabs.com/bons-plans/ecran-pc-acer-incurve-ed320q-315-fhd-240hz-va-freesync-premium-hdr10-3419193",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "PcComponentes",
+      "category": "High-Tech",
+      "price": 80.43,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T21:13:53.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "c7956ebc8138a1c207d3",
+      "title": "Smartphone Samsung Galaxy A57 5G - 8 + 256 Go (via coupon)",
+      "url": "https://www.dealabs.com/bons-plans/smartphone-samsung-galaxy-a57-5g-8-256-go-via-coupon-3419180",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "JoyBuy",
+      "category": "High-Tech",
+      "price": 359,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T20:38:13.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "58d499cbeca8c4aad819",
+      "title": "Écran d'ordinateur 23,8\" Xiaomi G24i, 1920 x 1080 pixels Full HD, LED, noir",
+      "url": "https://www.dealabs.com/bons-plans/xiaomi-ecran-dordinateur-g24i-1920-x-1080-pixels-full-hd-led-noir-238-pouces-3419156",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "JoyBuy",
+      "category": "High-Tech",
+      "price": 101.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:58:28.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "d3c869ff4d6e49c53b37",
+      "title": "Support écran et ordinateur portable Trust Mara - Double bras, écrans 32\", PC portable 17\", VESA 75/100",
+      "url": "https://www.dealabs.com/bons-plans/support-ecran-et-ordinateur-portable-trust-mara-double-bras-ecrans-32-pc-portable-17-vesa-75100-3419153",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "iBOOD",
+      "category": "High-Tech",
+      "price": 29.95,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:56:19.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "34e9d7889a514abc1466",
+      "title": "Écran PC 34\" Omen 34c G2 - WQHD (3440 x 1440), 1 ms",
+      "url": "https://www.dealabs.com/bons-plans/ecran-gaming-34-omen-34c-g2-3419149",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "HP",
+      "category": "High-Tech",
+      "price": 228.35,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:50:38.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "c069acc405349bafb8bc",
+      "title": "Écran PC 27\" Omen 27q G2 - QHD (2560 x 1440), 1 ms GtG",
+      "url": "https://www.dealabs.com/bons-plans/ecran-gaming-27-omen-27q-g2-3419148",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "HP",
+      "category": "High-Tech",
+      "price": 147.54,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:48:49.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "562d2808ad93469abddc",
+      "title": "Station de recharge Nacon pour Nintendo Switch 2",
+      "url": "https://www.dealabs.com/bons-plans/station-de-recharge-switch-2-3419134",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "E.Leclerc",
+      "category": "Consoles & Jeux vidéo",
+      "price": 27.93,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:21:16.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "cc7b9234891deeac16ad",
+      "title": "Drone Nafyre avec caméra 4K UHD - 90 min de vol, résistance au vent, suivi auto, retour auto (vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/drone-nafyre-avec-camera-4k-uhd-90-min-de-vol-resistance-au-vent-suivi-auto-retour-auto-3419132",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 129.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:17:53.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "3f43b5bbe370cdea28fe",
+      "title": "Xiaomi Haut-Parleur Bluetooth Essential, Green",
+      "url": "https://www.dealabs.com/bons-plans/xiaomi-haut-parleur-bluetooth-essentialgreen-3419127",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 17.65,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T19:15:54.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "eb4c22a2772368f02e2a",
+      "title": "Ordinateur Portable Dell 16 - Intel Core 7 150U, 16GB RAM, 1TB SSD, 16'' 2K antireflet 300 nits, Intel UHD Graphics",
+      "url": "https://www.dealabs.com/bons-plans/ordinateur-portable-dell-16-intel-core-7-150u-16gb-ram-1tb-ssd-16-2k-antireflet-300-nits-intel-uhd-graphics-3419117",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 819,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T18:59:16.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "de757ddb9e9cbca20033",
+      "title": "[Fanatical] Build your own Misfits and Mayhem Bundle (ex: Gori: Cuddly Carnage, Perennial Order...) — Dès 4,95 € les 3 jeux",
+      "url": "https://www.dealabs.com/bons-plans/fanatical-build-your-own-misfits-and-mayhem-bundle-ex-gori-cuddly-carnage-perennial-order-des-495-eur-les-3-jeux-3419113",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "Fanatical",
+      "category": "Consoles & Jeux vidéo",
+      "price": 4.95,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T18:47:47.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "68fa37513990988834a2",
+      "title": "Écran PC 24\" LG incurvé VA FHD 100Hz 5ms (vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/ecran-pc-24-lg-va-fhd-100hz-5ms-3419103",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 19.33,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T18:32:49.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "e4237b28ba2b526291fe",
+      "title": "Assassins' Creed Ezio Collection sur Nintendo switch",
+      "url": "https://www.dealabs.com/bons-plans/assassins-creed-ezio-collection-sur-nintentendo-switch-3419098",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "Amazon",
+      "category": "Consoles & Jeux vidéo",
+      "price": 19.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T18:25:35.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "61fce7b519cc09ff598a",
+      "title": "Smartphone Samsung Galaxy Z Fold 4 256 Go/12 Go Double SIM Noir Fantôme (Vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/samsung-galaxy-z-fold-4-256-go12-go-double-sim-noir-fantome-f936b-3419091",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "Amazon.de",
+      "category": "High-Tech",
+      "price": 957.97,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T18:11:04.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unmatched",
+        "searchUrl": "https://www.rebuy.fr/vendre/rechercher?query=samsung%20galaxy%20z%20fold%204%20256%20Go",
+        "reason": "Aucune référence Rebuy avec le même modèle, la même capacité et la même couleur."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Aucune référence Rebuy avec le même modèle, la même capacité et la même couleur."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "9e94b0e43ac8ef97d2be",
+      "title": "Smartphone Samsung Galaxy A57 5G - 8 + 128 Go, Bleu profond (via coupon)",
+      "url": "https://www.dealabs.com/bons-plans/samsung-galaxy-a57-5g-8-128-gb-bleu-profond-3418935",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "JoyBuy",
+      "category": "High-Tech",
+      "price": 289,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T13:19:01.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unmatched",
+        "searchUrl": "https://www.rebuy.fr/vendre/rechercher?query=samsung%20galaxy%20a57%205g%20128%20Go",
+        "reason": "Aucune référence Rebuy avec le même modèle, la même capacité et la même couleur."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Aucune référence Rebuy avec le même modèle, la même capacité et la même couleur."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "bd77cde3593cf7cab1f4",
+      "title": "Double Album Vinyle Rouge Téléphone : Live Paris 81 - Édition Limitée",
+      "url": "https://www.dealabs.com/bons-plans/double-album-vinyle-rouge-telephone-live-paris-81-edition-limitee-3418734",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "Amazon",
+      "category": "Culture & Divertissement",
+      "price": 38.77,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T08:41:07.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "160b02af940897bd222f",
+      "title": "Smartphone 6,9\" Motorola Razr 70 - 8+256 Go, 5G Pantone Hematite",
+      "url": "https://www.dealabs.com/bons-plans/motorola-razr-70-8256gb-69-5g-pantone-hematite-3418685",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "eBay",
+      "category": "High-Tech",
+      "price": 533.33,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T07:23:00.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "b76c3f162eb31bdc284a",
+      "title": "Ceinture de Running Kiprun - pour Smartphone, Verte",
+      "url": "https://www.dealabs.com/bons-plans/ceinture-de-running-smartphone-homme-femme-kiprun-basique-2-verte-3418610",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "Decathlon",
+      "category": "High-Tech",
+      "price": 5.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-24T04:17:21.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "9b8c55aab80f029fe945",
+      "title": "Smartphone Xiaomi 15T Pro 5G 512go Gold -Global Version",
+      "url": "https://www.dealabs.com/bons-plans/xiaomi-15t-pro-5g-512go-gold-smartphone-global-version-3418386",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "AliExpress",
+      "category": "High-Tech",
+      "price": 559.84,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-23T15:54:41.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "abb6d2ad590ace586ff2",
+      "title": "Pochette de Transport et Protection d'écran PDP The Legend of Zelda Hyrule",
+      "url": "https://www.dealabs.com/bons-plans/pochette-de-transport-et-protection-decran-pdp-the-legend-of-zelda-hyrule-3418352",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "Fnac",
+      "category": "Culture & Divertissement",
+      "price": 4.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-23T15:05:51.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "e7fb6472d7dc3a47b215",
+      "title": "Smartphone Realme 14 pro - 256 Go",
+      "url": "https://www.dealabs.com/bons-plans/realme-14-pro-3418306",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "AliExpress",
+      "category": "High-Tech",
+      "price": 190.54,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-23T13:41:25.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "a154b8f215b5b1b35d2b",
+      "title": "Reconditionné : Smartphone 6,6\" Honor 600 lite 5g 8/252 Go (Très Bon État - Vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/honor-600-lite-5g-reconditionne-3418080",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "Cdiscount",
+      "category": "High-Tech",
+      "price": 229,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "used",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-23T09:18:52.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "58807b8249b84ff70e52",
+      "title": "Reconditionné : Smartphone 6.7\" Honor 400 Pro - 12+512 Go, Gris, version globale (Très Bon État - Vendeur Tiers)",
+      "url": "https://www.dealabs.com/bons-plans/smartphone-honor-400-pro-12go512go-noir-version-globale-reconditionne-tres-bon-etat-3418033",
+      "source": "Dealabs · téléphonie",
+      "sourceId": "dealabs-phones",
+      "merchant": "Cdiscount",
+      "category": "High-Tech",
+      "price": 334,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "used",
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-23T08:23:14.000Z",
+      "observedAt": "2026-09-25T07:44:54.425Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:44:54.425Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
     }
   ],
   "policy": {
@@ -1103,15 +2482,15 @@
     "scope": "France · neuf prioritaire"
   },
   "health": {
-    "state": "coverage_missing",
-    "message": "Aucune offre actuelle couverte par une comparaison de revente vérifiée. Le catalogue de comparaison doit être élargi.",
+    "state": "partial",
+    "message": "Couverture partielle : seules les offres avec comparaison vérifiée peuvent produire une alerte.",
     "exitCode": 0,
-    "currentOffers": 13,
-    "comparedOffers": 0,
-    "unverifiedOffers": 13,
+    "currentOffers": 47,
+    "comparedOffers": 1,
+    "unverifiedOffers": 46,
     "qualifiedOffers": 0,
-    "acquisitionSources": 1,
-    "comparisonSources": 4,
-    "currentReferences": 4
+    "acquisitionSources": 4,
+    "comparisonSources": 5,
+    "currentReferences": 5
   }
 }
