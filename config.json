@@ -1,0 +1,40 @@
+{
+  "country": "FR",
+  "currency": "EUR",
+  "maximumPurchase": 1000,
+  "minimumProfit": 30,
+  "minimumRoiPercent": 25,
+  "preferNew": true,
+  "maximumOfferAgeHours": 72,
+  "minimumComparableSales": 5,
+  "minimumMonthlySales": 3,
+  "maximumEvidenceAgeDays": 90,
+  "resaleHaircutPercent": 10,
+  "sellingFeePercent": 15,
+  "riskReservePercent": 5,
+  "outboundShipping": 8,
+  "inboundShippingReserve": 10,
+  "alertOwner": "kazeDraughts",
+  "alertsEnabled": true,
+  "sources": [{"id":"dealabs","name":"Dealabs · toutes les offres","type":"dealabs-rss","url":"https://www.dealabs.com/rss"}],
+  "excludedTitlePatterns": ["dématérialisé", "code in the box", "bon d'achat", "bons d'achat", "carte de fidélité", "cagnott", "nouveaux clients", "abonnement", "prime", "whisky", "bière", "cigarette", "arme"],
+  "excludedCategoryPatterns": ["alimentation", "épicerie", "voyages", "santé", "services"],
+  "productMappings": [
+    {
+      "key": "sony-dualsense-white-standard",
+      "label": "DualSense blanche standard · bon état",
+      "required": ["dualsense", ["blanc", "blanche", "white"]],
+      "excluded": ["edge", "edition", "limitee", "limited", "icon", "coque", "housse", "support", "chargeur", "station"],
+      "expectedTitle": ["SONY", "DualSense", "Blanc", "PS5"],
+      "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Blanc/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Blanc%20PS5?id=004487175&grade=B"
+    },
+    {
+      "key": "sony-dualsense-blue-standard",
+      "label": "DualSense bleue standard · bon état",
+      "required": ["dualsense", ["bleu", "bleue", "blue"]],
+      "excluded": ["edge", "edition", "limitee", "limited", "icon", "coque", "housse", "support", "chargeur", "station"],
+      "expectedTitle": ["SONY", "DualSense", "Bleu", "PS5"],
+      "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Bleu/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Bleu%20PS5?grade=B&id=005116764"
+    }
+  ]
+}
