@@ -2,7 +2,7 @@ import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { load } from 'cheerio';
 import { euros, httpsUrl, idFor, normal } from './core.mjs';
 
-const allowed=new Set(['www.dealabs.com','prix.easycash.fr']);
+const allowed=new Set(['www.dealabs.com','prix.easycash.fr','www.rebuy.fr']);
 export async function fetchPublic(url,{timeout=20000}={}) {
   const initial=new URL(url);if(initial.protocol!=='https:'||!allowed.has(initial.hostname))throw Error('Source non autorisée');
   let target=url;
@@ -42,4 +42,27 @@ export function parseEasyCash(html,mapping,observedAt=new Date().toISOString()) 
   const verified=mapping.expectedTitle.every(t=>normal(title).includes(normal(t)));
   if(!verified)throw Error('Modèle de reprise différent de la référence attendue');
   return {type:'buyback',provider:'Easy Cash',productKey:mapping.key,price:unique[0],currency:'EUR',country:'FR',url:mapping.url,title,titleVerified:true,observedAt,freeShipping:false};
+}
+
+export function parseRebuy(html,mapping,observedAt=new Date().toISOString()) {
+  const url=new URL(mapping.url);
+  if(url.protocol!=='https:'||url.hostname!=='www.rebuy.fr'||!url.pathname.startsWith('/vendre/'))throw Error('URL de reprise Rebuy invalide');
+  const doc=load(html);
+  const nodes=doc('script#ry-inject[type="application/json"]');
+  if(nodes.length!==1)throw Error('Données de reprise Rebuy absentes');
+  const data=JSON.parse(nodes.text());
+  const product=data.productDetailViewDto?.product;
+  if(data.locale!=='fr'||!String(data.currencyTemplate).includes('€'))throw Error('Marché Rebuy non comparable');
+  if(!product||String(product.id)!==String(mapping.providerId)||!url.pathname.endsWith('_'+product.id))throw Error('Référence Rebuy différente');
+  if(product.allowed_purchase!==true||product.is_purchaseable!==true||product.purchase_stop!==false)throw Error('Reprise Rebuy non disponible');
+  const title=String(product.name||'');
+  if(!mapping.expectedTitle.every(t=>(' '+normal(title)+' ').includes(' '+normal(t)+' '))||!doc('h1').toArray().some(e=>normal(doc(e).text())===normal(title)))throw Error('Modèle Rebuy non concordant');
+  // A1 = comme neuf. Never use retail prices, coupons, vouchers or A0 as cash proceeds.
+  const cents=product.purchase_a1_price;
+  const variants=product.variants?.filter(v=>v.label==='A1')||[];
+  if(!Number.isSafeInteger(cents)||cents<=0||variants.length!==1||variants[0].purchasePrice!==cents)throw Error('Prix de reprise Rebuy absent ou incohérent');
+  return {type:'buyback',provider:'Rebuy',productKey:mapping.key,price:cents/100,currency:'EUR',country:'FR',url:mapping.url,title,titleVerified:true,observedAt,freeShipping:false,
+    assumptions:['Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.',
+      'Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.',
+      ...(mapping.quoteAssumptions||[])]};
 }

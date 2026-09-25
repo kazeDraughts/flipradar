@@ -42,6 +42,7 @@ export function assess(offer,evidence,config,now=Date.now()) {
     resale=evidence.price;
     output.liquidity='Reprise professionnelle, sous contrôle';
     output.assumptions.push('Estimation de rachat non contractuelle, sous réserve de contrôle de l’état, des accessoires et de l’éligibilité du vendeur.');
+    output.assumptions.push(...(evidence.assumptions||[]).filter(a=>typeof a==='string'));
   } else if(evidence.type==='sold') {
     const seen=new Set();
     const sales=(evidence.sales||[]).filter(s=>{
