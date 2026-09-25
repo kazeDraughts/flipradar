@@ -15,9 +15,13 @@ async function load(){
  $('#refresh').disabled=true;
  try{const r=await fetch('data/deals.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error();const d=await r.json();if(!Array.isArray(d.deals)||!Array.isArray(d.sources))throw Error();dataset=d;
  $('#updated').textContent='Dernière recherche : '+date(d.updatedAt)+' · France';
- const stale=Date.now()-Date.parse(d.updatedAt)>3*3600000;
+ const stale=!Number.isFinite(Date.parse(d.updatedAt))||Date.now()-Date.parse(d.updatedAt)>3*3600000;
  const failed=d.sources.filter(s=>s.status!=='ok');
  $('#notice').textContent=stale?'La dernière recherche date de plus de 3 heures. Vérifiez la veille dans GitHub Actions.':(failed.length===d.sources.length?'Aucune source n’a répondu. Les offres conservées sont à recontrôler.':failed.length?'Certaines sources de comparaison sont indisponibles. Les offres sans preuve de revente restent à vérifier ; voir le détail des sources ci-dessous.':'');
+ if(!stale&&d.health?.message)$('#notice').textContent=d.health.message;
+ let coverage=$('#coverage');
+ if(!coverage){coverage=document.createElement('p');coverage.id='coverage';coverage.className='muted';$('#sources').before(coverage);}
+ coverage.textContent=d.health?`${d.health.comparedOffers} offre(s) actuelle(s) avec comparaison vérifiée sur ${d.health.currentOffers} · ${d.health.unverifiedOffers} sans comparaison exploitable. ${d.health.currentReferences} référence(s) de marché récente(s).`:'Couverture de revente non mesurée dans cette version des données.';
  $('#alert-state').textContent=d.policy?.alertsEnabled?'Alertes automatiques configurées. Réception email à vérifier dans votre compte GitHub.':'Alertes automatiques non activées.';render();
  }catch{$('#notice').textContent='Impossible de charger les recherches. Réessayez ou consultez GitHub Actions.';}finally{$('#refresh').disabled=false;}
 }
