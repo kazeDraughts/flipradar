@@ -11,3 +11,9 @@ test('notification recomputes profitability rather than trusting qualified flag'
 test('the amount in the alert is also recomputed before sending',()=>{const d=fixture();d.deals[0].price=120;const [candidate]=alertCandidates(d,config,[],now);assert.equal(candidate.analysis.profit,62);assert.ok(alertBody(candidate,'kazeDraughts').includes('62 €'));});
 test('old scans, paused alerts and stale offers cannot notify',()=>{const d=fixture();assert.equal(alertCandidates(d,{...config,alertsEnabled:false},[],now).length,0);assert.equal(alertCandidates({...d,updatedAt:'2026-09-20T12:00:00Z'},config,[],now).length,0);d.deals[0].stale=true;assert.equal(alertCandidates(d,config,[],now).length,0);});
 test('untrusted titles cannot mention other accounts',()=>{const body=alertBody(fixture().deals[0],'kazeDraughts');assert.ok(body.includes('@kazeDraughts'));assert.ok(!body.includes('@other-user'));});
+
+test('alerts link to the exact fiche and state the configured purchase ceiling',()=>{
+  const body=alertBody(fixture().deals[0],'kazeDraughts');
+  assert.ok(body.includes('https://kazedraughts.github.io/flipradar/#deal=one'));
+  assert.ok(body.includes('145.6 € (mêmes hypothèses et seuils)'));
+});

@@ -10,6 +10,24 @@ const quote={type:'buyback',productKey:'test-model',price:200,currency:'EUR',cou
 test('French euro prices do not silently turn ranges or cashback into a price',()=>{assert.equal(euros('1 869,15€'),1869.15);assert.equal(euros('dès 12€'),null);assert.equal(euros('12 à 20€'),null);assert.equal(euros(''),null);assert.equal(euros('gratuit'),null);});
 test('net profit includes outbound shipping and risk reserve',()=>{const a=assess(deal,quote,config,now);assert.equal(a.cost,100);assert.equal(a.fees,18);assert.equal(a.profit,82);assert.equal(a.roi,82);assert.equal(a.qualified,true);});
 test('unknown shipping is budgeted rather than treated as free',()=>{const a=assess({...deal,shipping:null},quote,config,now);assert.equal(a.cost,110);assert.equal(a.profit,72);});
+
+test('purchase ceiling respects profit, ROI and budget, including inbound delivery',()=>{
+  assert.equal(assess(deal,quote,config,now).maximumPurchasePrice,145.6);
+  assert.equal(assess({...deal,shipping:null},quote,config,now).maximumPurchasePrice,135.6);
+  assert.equal(assess(deal,quote,{...config,minimumProfit:100},now).maximumPurchasePrice,82);
+  assert.equal(assess({...deal,shipping:10},quote,{...config,maximumPurchase:120},now).maximumPurchasePrice,110);
+  assert.equal(assess(deal,{...quote,price:20},config,now).maximumPurchasePrice,0);
+  assert.equal(assess(deal,null,config,now).maximumPurchasePrice,null);
+});
+
+test('the suggested ceiling itself qualifies, but one cent above it does not',()=>{
+  for(const price of [200,199.99,520.52]){
+    const evidence={...quote,price};const offer={...deal,shipping:10};
+    const ceiling=assess(offer,evidence,config,now).maximumPurchasePrice;
+    assert.equal(assess({...offer,price:ceiling},evidence,config,now).qualified,true);
+    assert.equal(assess({...offer,price:ceiling+.01},evidence,config,now).qualified,false);
+  }
+});
 test('a stale quote never qualifies',()=>{assert.equal(assess(deal,{...quote,observedAt:'2026-09-20T00:00:00Z'},config,now).qualified,false);});
 test('invalid evidence never displays an apparent resale margin',()=>{
   for(const evidence of [{...quote,productKey:'other'},{...quote,country:'US'},{...quote,observedAt:'2026-09-20T00:00:00Z'},{...quote,titleVerified:false}]){
