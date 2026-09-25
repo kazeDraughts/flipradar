@@ -22,7 +22,7 @@ async function load(){
  let coverage=$('#coverage');
  if(!coverage){coverage=document.createElement('p');coverage.id='coverage';coverage.className='muted';$('#sources').before(coverage);}
  coverage.textContent=d.health?`${d.health.comparedOffers} offre(s) actuelle(s) avec comparaison vérifiée sur ${d.health.currentOffers} · ${d.health.unverifiedOffers} sans comparaison exploitable. ${d.health.currentReferences} référence(s) de marché récente(s).`:'Couverture de revente non mesurée dans cette version des données.';
- $('#alert-state').textContent=d.policy?.alertsEnabled?'Alertes automatiques configurées. Réception email à vérifier dans votre compte GitHub.':'Alertes automatiques non activées.';render();
+ $('#alert-state').textContent=d.policy?.alertsEnabled?'Alertes automatiques configurées. Réception email à vérifier dans votre compte GitHub.':'Alertes automatiques non activées.';render();openLinkedDeal();
  }catch{$('#notice').textContent='Impossible de charger les recherches. Réessayez ou consultez GitHub Actions.';}finally{$('#refresh').disabled=false;}
 }
 function render(){
@@ -34,14 +34,28 @@ function render(){
  $('#deals').innerHTML=matched.map(d=>`<article class="deal"><div class="deal-head"><span class="tag ${d.analysis?.qualified?'green':''}">${d.analysis?.qualified?'Marge suffisante':d.analysis?.status==='unprofitable'?'Marge insuffisante':'À vérifier'}</span><span class="merchant">${esc(d.category)}</span></div><h3>${esc(d.title)}</h3><div class="merchant">${esc(d.merchant)} · ${d.condition==='new'?'Neuf présumé':'Occasion / reconditionné'}</div><div class="price-row"><div class="price">${money(d.price)}<small>Prix repéré · transport à confirmer</small></div><div class="estimate ${d.analysis?.qualified?'':'pending'}">${Number.isFinite(d.analysis?.profit)?money(d.analysis.profit)+' de bénéfice estimé':'Prix de revente<br>à documenter'}</div></div><div class="deal-bottom"><button data-open="${esc(d.id)}">Analyser la fiche ↗</button><button class="bookmark" data-save="${esc(d.id)}" aria-label="${bookmarks.includes(d.id)?'Retirer du suivi':'Ajouter au suivi'}" aria-pressed="${bookmarks.includes(d.id)}">${bookmarks.includes(d.id)?'★':'☆'}</button></div></article>`).join('')||'<div class="empty"><b>Aucune offre dans cette vue.</b><br>Les bons plans doivent disposer d’une comparaison de revente et d’une marge suffisante.<br>Modifiez les filtres ou consultez les dernières détections.</div>';
  $('#sources').innerHTML=(dataset.sources||[]).map(s=>`<div class="source"><b>${esc(s.name)}</b><span>${s.status==='ok'?'✓ '+esc(s.count)+' observations':'⚠ '+esc(s.error||'Indisponible')} · ${date(s.checkedAt)}</span></div>`).join('');
 }
-function show(id){
+function openLinkedDeal(){
+ const id=new URLSearchParams(location.hash.slice(1)).get('deal');
+ if(!id){if($('#detail').open)$('#detail').close();return;}
+ if(dataset.deals.some(d=>d.id===id))show(id,false);
+ else toast('Cette fiche n’est plus dans les recherches récentes. Consultez les détails conservés dans votre alerte GitHub.');
+}
+function show(id,updateUrl=true){
  const d=dataset.deals.find(x=>x.id===id);if(!d)return;const a=d.analysis||{},e=a.evidence;const query=encodeURIComponent(d.title);
  $('#detail-body').innerHTML=`<h2 class="dialog-title">${esc(d.title)}</h2><p class="muted">${esc(d.merchant)} · publié le ${date(d.publishedAt)}<br>Source : ${esc(d.source)} · référence ${d.productKey?esc(d.productKey):'à confirmer'}</p><div class="metrics"><div class="metric"><span>Prix d’achat affiché</span><b>${money(d.price)}</b></div><div class="metric"><span>${e?.type==='buyback'?'Reprise professionnelle':'Revente prudente'}</span><b>${money(a.resale)}</b></div><div class="metric"><span>Débouché de revente</span><b>${esc(a.liquidity||'Non mesuré')}</b></div></div><div class="calculation"><div class="calc-row"><span>Achat + transport entrant</span><b>${money(a.cost)}</b></div><div class="calc-row"><span>Frais, envoi & provision de risque</span><b>${money(a.fees)}</b></div><div class="calc-row"><span>Bénéfice estimé avant fiscalité</span><b>${money(a.profit)}</b></div></div><h3>${a.qualified?'Critères de marge respectés':'Points à vérifier'}</h3><ul class="reasons">${(a.reasons||[]).map(r=>'<li>'+esc(r)+'</li>').join('')||'<li>Le coût et le rendement respectent les seuils configurés. Confirmez le stock et les conditions avant achat.</li>'}</ul><p class="muted">${Number.isFinite(a.roi)?'Rendement sur coût : '+esc(a.roi)+' %.':'Rendement non calculable sans référence de revente.'}</p><h3>Preuves et hypothèses</h3>${e?`<p><a href="${esc(safeUrl(e.url))}" target="_blank" rel="noopener noreferrer">${esc(e.provider||'Source des comparables')} ↗</a> · observé le ${date(e.observedAt)}</p>`:'<p class="muted">Pas de prix comparable vérifié. Un prix demandé ou des votes sur une promotion ne constituent pas une vente conclue.</p>'}<ul class="muted">${(a.assumptions||[]).map(r=>'<li>'+esc(r)+'</li>').join('')}</ul><div class="links"><a href="${esc(safeUrl(d.url))}" target="_blank" rel="noopener noreferrer">Voir l’offre source ↗</a><a href="https://www.ebay.fr/sch/i.html?_nkw=${query}&amp;LH_Sold=1&amp;LH_Complete=1" target="_blank" rel="noopener noreferrer">Ventes eBay : recherche manuelle ↗</a><a href="https://www.leboncoin.fr/recherche?text=${query}" target="_blank" rel="noopener noreferrer">Annonces Leboncoin ↗</a></div><p class="muted">À contrôler : référence et variante, facture, état, stock, restrictions promotionnelles, authenticité et garantie. Les liens de recherche ne sont pas une surveillance automatique de ces sites.</p>`;
  const state=document.createElement('p');state.className='muted';
  state.textContent='État retenu : '+(d.conditionLabel||(d.condition==='new'?'Neuf présumé':'Occasion : état à confirmer'))+(e?.grade?' · Scénario de reprise '+e.grade:'');
  $('#detail-body h2').after(state);
- $('#detail').showModal();
+ if(Number.isFinite(a.maximumPurchasePrice)){
+   const limit=document.createElement('p');limit.className='muted';
+   limit.textContent=a.maximumPurchasePrice>0?'Prix d’achat maximal estimé : '+money(a.maximumPurchasePrice)+' hors transport entrant, déjà déduit dans ce calcul. Seuils de la veille : '+money(dataset.policy?.minimumProfit)+' de bénéfice et '+dataset.policy?.minimumRoi+' % de rendement. Hypothèses de reprise, frais et risque inchangées.':'Aucun prix d’achat positif ne respecte les seuils de marge avec ces hypothèses.';
+   $('#detail-body .calculation').after(limit);
+ }
+ if(updateUrl)history.replaceState(null,'','#deal='+encodeURIComponent(id));
+ if(!$('#detail').open)$('#detail').showModal();
 }
+window.addEventListener('hashchange',openLinkedDeal);
+$('#detail').addEventListener('close',()=>{if(new URLSearchParams(location.hash.slice(1)).has('deal'))history.replaceState(null,'',location.pathname+location.search);});
 document.querySelector('nav').addEventListener('click',e=>{const b=e.target.closest('[data-view]');if(!b)return;view=b.dataset.view;document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('selected',x===b));$('#settings').hidden=view!=='settings';$('#feed').hidden=view==='settings';$('#view-title').textContent={all:'Dernières détections',qualified:'Marge suffisante',saved:'Mon suivi'}[view]||'';render();});
 $('#deals').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.open)show(b.dataset.open);if(b.dataset.save){const id=b.dataset.save,next=bookmarks.includes(id)?bookmarks.filter(x=>x!==id):[...bookmarks,id];if(persist('flipradar-saved-v2',next)){bookmarks=next;render();}}});
 for(const key of ['budget','profit','roi'])$('#'+key).value=prefs[key];
