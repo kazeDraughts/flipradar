@@ -13,6 +13,8 @@ Radar d’achat-revente en France, neuf prioritaire, budget de 1 000 € par ach
 - Lecture de prix de reprise Rebuy pour quatre références explicites et découverte automatique de modèles reconnus ; connecteur Easy Cash présent mais bloqué depuis GitHub.
 - Simulation achat + transport entrant + frais de revente + transport sortant + provision de risque. Seuils par défaut : bénéfice 30 €, rendement sur coût 25 %.
 - Tableau de bord, recherche, filtres, fiches sourcées et favoris locaux persistants.
+- Prix d'achat maximal calculé à partir du bénéfice minimum, du rendement minimum et du budget, avec les mêmes transports, frais et provisions que la marge. Ce plafond reste conditionnel aux hypothèses de reprise ; il n'est pas une consigne d'achat.
+- Lien direct vers chaque fiche depuis les nouvelles alertes. Les offres sorties des recherches récentes ne sont plus affichées sur le site ; l'issue GitHub conserve le détail de l'alerte.
 - Workflow GitHub Actions horaire (minute 17), déclenchement manuel, publication GitHub Pages.
 - Une issue avec mention du propriétaire par nouvelle opportunité qualifiée, sans répétition. Réception email selon les réglages GitHub du destinataire. Un test de réception peut être lancé depuis Actions.
 
