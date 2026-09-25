@@ -1,5 +1,9 @@
 # FlipRadar
 
+Site : https://kazedraughts.github.io/flipradar/
+
+État vérifié le 25 septembre 2026 : publication GitHub Pages et collecte Dealabs opérationnelles sur GitHub Actions. Les devis Easy Cash répondent en local mais renvoient HTTP 403 depuis le serveur GitHub ; ils sont donc actuellement indisponibles dans la veille hébergée. L’élargissement de la comparaison et le rétablissement de cette collecte restent à réaliser. Le premier scan hébergé ne prouve pas qu’une offre est revendable avec profit.
+
 Radar d’achat-revente en France, neuf prioritaire, budget de 1 000 € par achat. Les données affichées viennent de recherches datées, pas d’un jeu de démonstration.
 
 ## Ce qui fonctionne
