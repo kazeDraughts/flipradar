@@ -3,6 +3,7 @@ import {fileURLToPath} from 'node:url';
 import {join,dirname,resolve} from 'node:path';
 import {fetchPublic,parseDealabs,parseEasyCash} from '../src/sources.mjs';
 import {classify,matchingMapping,assess,fresh} from '../src/core.mjs';
+import {radarHealth} from '../src/health.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const config=JSON.parse(await readFile(join(root,'config.json'),'utf8'));
 const now=new Date().toISOString();
@@ -39,7 +40,9 @@ for(const deal of byId.values()){
 }
 deals.sort((a,b)=>Number(b.analysis.qualified)-Number(a.analysis.qualified)||(config.preferNew?Number(b.condition==='new')-Number(a.condition==='new'):0)||Date.parse(b.publishedAt)-Date.parse(a.publishedAt));
 const data={schemaVersion:1,updatedAt:now,sources:status,referencePrices:[...evidenceCache.values()].filter(Boolean),excludedCount:excluded,deals,policy:{budget:config.maximumPurchase,minimumProfit:config.minimumProfit,minimumRoi:config.minimumRoiPercent,alertsEnabled:config.alertsEnabled,alertChannel:'GitHub email',scope:'France · neuf prioritaire'}};
+data.health=radarHealth(data,config,Date.parse(now));
 await mkdir(join(root,'public/data'),{recursive:true});
 await writeFile(join(root,'public/data/deals.json'),JSON.stringify(data,null,2)+'\n');
 console.log(JSON.stringify({offers:deals.length,qualified:deals.filter(d=>d.analysis.qualified).length,excluded,sources:status.map(s=>({name:s.name,status:s.status,error:s.error}))},null,2));
-if(status.filter(s=>config.sources.some(c=>c.id===s.id)).every(s=>s.status==='error'))process.exitCode=2;
+console.log(JSON.stringify({health:data.health},null,2));
+process.exitCode=data.health.exitCode;
