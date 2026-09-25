@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T08:03:21.110Z",
+  "updatedAt": "2026-09-25T08:12:31.169Z",
   "sources": [
     {
       "id": "dealabs",
       "name": "Dealabs · toutes les offres",
       "url": "https://www.dealabs.com/rss",
-      "status": "error",
-      "error": "fetch failed",
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "status": "ok",
+      "count": 30,
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "dealabs-phones",
@@ -16,7 +16,7 @@
       "url": "https://www.dealabs.com/rss/groupe/telephonie",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "dealabs-gaming",
@@ -24,7 +24,7 @@
       "url": "https://www.dealabs.com/rss/groupe/consoles-jeux-video",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "dealabs-tech",
@@ -32,7 +32,7 @@
       "url": "https://www.dealabs.com/rss/groupe/high-tech",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "sony-wh1000xm5-black",
@@ -40,7 +40,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "nintendo-switch-oled-white",
@@ -48,7 +48,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "apple-airpods-pro2-usbc",
@@ -56,7 +56,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "sony-ps5-slim-1tb-disc-cfi2016",
@@ -64,7 +64,7 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "sony-dualsense-white-standard",
@@ -72,7 +72,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Blanc/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Blanc%20PS5?id=004487175&grade=B",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "sony-dualsense-blue-standard",
@@ -80,7 +80,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Bleu/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Bleu%20PS5?grade=B&id=005116764",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     },
     {
       "id": "rebuy-auto-0a7b95cee9d46410b994",
@@ -88,7 +88,7 @@
       "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T08:03:21.110Z"
+      "checkedAt": "2026-09-25T08:12:31.169Z"
     }
   ],
   "referencePrices": [
@@ -109,7 +109,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "title": "Sony WH-1000XM5 noir",
       "titleVerified": true,
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -134,7 +134,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "title": "Nintendo Switch OLED 64 Go [incl. une manette blanc et blanc] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -159,7 +159,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "title": "Apple AirPods Pro 2 [avec boitier MagSafe USB-C] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -184,7 +184,7 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "title": "Sony PlayStation 5 slim 1 To [Édition disque incl. manette sans fil DualSense] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -210,7 +210,7 @@
       "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
       "title": "Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
       "titleVerified": true,
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -220,8 +220,196 @@
       ]
     }
   ],
-  "excludedCount": 45,
+  "excludedCount": 55,
   "deals": [
+    {
+      "id": "93708235784df7896481",
+      "title": "Système de gestion de l'énergie Zendure 2400Ac",
+      "url": "https://www.dealabs.com/bons-plans/zendure-2400ac-3419335",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "ManoMano",
+      "category": "Maison & Habitat",
+      "price": 239,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:59:29.000Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T08:12:31.169Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "0705802ef4fd58840276",
+      "title": "LEGO Icons 10315 - Le Jardin Paisible (Via 15,10€ de fidélité)",
+      "url": "https://www.dealabs.com/bons-plans/le-jardin-paisible-lego-icons-10315-via-1510eur-de-fidelite-3419333",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "E.Leclerc",
+      "category": "Famille & Enfants",
+      "price": 60.39,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:58:36.000Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T08:12:31.169Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "a83978ed9fca9f5ea5f3",
+      "title": "Multimètre à pince PZM 2 B4 ou à broche PSM 2 B4 Parkside - 600V AC/DC, Piles incl",
+      "url": "https://www.dealabs.com/bons-plans/multimetre-a-pince-pzm-2-b4-ou-a-broche-psm-2-b4-parkside-600v-acdc-piles-incl-3419329",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Lidl",
+      "category": "Jardin & Bricolage",
+      "price": 11.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:55:36.000Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T08:12:31.169Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "7883cdb459aa0d583248",
+      "title": "Perceuse à percussion Parkside Performance 20V PSBSAP 20-Li C3 - Brushless, 64 Nm, Mandrin Röhm, sans batterie",
+      "url": "https://www.dealabs.com/bons-plans/perceuse-a-percussion-parkside-performance-20v-psbsap-20-li-c3-brushless-64-nm-mandrin-rohm-sans-batterie-3419325",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Lidl",
+      "category": "Jardin & Bricolage",
+      "price": 44.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:50:29.000Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T08:12:31.169Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
     {
       "id": "476bc7e62a4ef2a805ff",
       "title": "Casque sans fil JBL Tune 660 NC (Noir ou Bleu)",
@@ -240,7 +428,7 @@
       "shipping": 0,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:50:23.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T08:03:21.110Z",
       "stale": false,
@@ -258,6 +446,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -288,7 +477,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:47:33.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:48:58.296Z",
       "stale": false,
@@ -306,6 +495,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -335,7 +525,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:39:39.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -353,6 +543,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -375,16 +566,21 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:31:05.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -394,11 +590,12 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -416,16 +613,21 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:27:59.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:32:35.625Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -435,11 +637,12 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -457,16 +660,21 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:20:59.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:48:58.296Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -476,11 +684,12 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -498,16 +707,21 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:17:40.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -517,11 +731,12 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -557,6 +772,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -585,7 +801,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:15:14.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
       "stale": false,
@@ -603,6 +819,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -625,16 +842,21 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:12:15.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -644,11 +866,12 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
         "evidence": null,
         "assumptions": []
@@ -672,7 +895,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:05:31.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:06:49.990Z",
       "stale": false,
@@ -690,6 +913,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -731,6 +955,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -759,7 +984,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:02:44.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -777,6 +1002,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -818,6 +1044,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -859,6 +1086,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -887,7 +1115,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:52:44.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -905,6 +1133,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -933,7 +1162,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:52:08.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -951,6 +1180,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -992,6 +1222,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1020,7 +1251,7 @@
       "shipping": 0,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:48:22.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -1038,6 +1269,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1066,7 +1298,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:06:38.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": "rebuy-auto-0a7b95cee9d46410b994",
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1084,6 +1316,7 @@
         "fees": 34.03,
         "profit": -242.43,
         "roi": -33.26,
+        "maximumPurchasePrice": 379.19,
         "score": null,
         "liquidity": "Reprise professionnelle, sous contrôle",
         "reasons": [
@@ -1107,7 +1340,7 @@
           "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
           "title": "Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
           "titleVerified": true,
-          "observedAt": "2026-09-25T08:03:21.110Z",
+          "observedAt": "2026-09-25T08:12:31.169Z",
           "freeShipping": false,
           "assumptions": [
             "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -1149,7 +1382,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:03:37.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1167,6 +1400,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1207,6 +1441,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1235,7 +1470,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:48:24.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1253,6 +1488,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1281,7 +1517,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:47:04.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1299,6 +1535,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1339,6 +1576,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1379,6 +1617,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1407,7 +1646,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:35:12.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1425,6 +1664,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1465,6 +1705,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1493,7 +1734,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:24:20.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1511,6 +1752,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1551,6 +1793,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1579,7 +1822,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T00:51:16.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1597,6 +1840,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1625,7 +1869,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T00:06:29.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1643,6 +1887,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1673,7 +1918,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T22:07:44.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1691,6 +1936,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1720,7 +1966,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T21:13:53.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1738,6 +1984,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1766,7 +2013,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T20:38:13.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1784,6 +2031,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1812,7 +2060,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:58:28.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1830,6 +2078,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1858,7 +2107,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:56:19.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1876,6 +2125,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1904,7 +2154,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:50:38.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1922,6 +2172,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1950,7 +2201,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:48:49.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1968,6 +2219,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -1996,7 +2248,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:21:16.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2014,6 +2266,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2042,7 +2295,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:17:53.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2060,6 +2313,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2091,12 +2345,10 @@
       "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2106,11 +2358,12 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2147,6 +2400,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2175,7 +2429,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T18:47:47.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2193,6 +2447,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2234,6 +2489,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2262,7 +2518,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T18:25:35.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2280,6 +2536,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2308,7 +2565,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T18:11:04.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2327,6 +2584,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2355,7 +2613,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T13:19:01.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2374,6 +2632,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2402,7 +2661,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T08:41:07.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2420,6 +2679,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2448,7 +2708,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T07:23:00.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2466,6 +2726,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2494,7 +2755,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T04:17:21.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2512,6 +2773,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2540,7 +2802,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T15:54:41.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2558,6 +2820,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2586,7 +2849,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T15:05:51.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2604,6 +2867,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2632,7 +2896,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T13:41:25.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2650,6 +2914,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2678,7 +2943,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T09:18:52.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2696,6 +2961,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2724,7 +2990,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T08:23:14.000Z",
-      "observedAt": "2026-09-25T08:03:21.110Z",
+      "observedAt": "2026-09-25T08:12:31.169Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2742,6 +3008,7 @@
         "fees": null,
         "profit": null,
         "roi": null,
+        "maximumPurchasePrice": null,
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
@@ -2765,11 +3032,11 @@
     "state": "partial",
     "message": "Couverture partielle : seules les offres avec comparaison vérifiée peuvent produire une alerte.",
     "exitCode": 0,
-    "currentOffers": 39,
+    "currentOffers": 47,
     "comparedOffers": 1,
-    "unverifiedOffers": 38,
+    "unverifiedOffers": 46,
     "qualifiedOffers": 0,
-    "acquisitionSources": 3,
+    "acquisitionSources": 4,
     "comparisonSources": 5,
     "currentReferences": 5
   }
