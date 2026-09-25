@@ -61,6 +61,6 @@ jobs:
       - name: Publier le site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Signaler une panne de collecte après publication du diagnostic
+      - name: Signaler une panne de collecte ou de comparaison après publication du diagnostic
         if: steps.scan.outcome == 'failure'
         run: exit 1
