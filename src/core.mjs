@@ -28,7 +28,7 @@ export function matchingMapping(offer,mappings) {
 }
 export function assess(offer,evidence,config,now=Date.now()) {
   const reasons=[...(offer.exclusions||[])];
-  const output={status:'unverified',qualified:false,resale:null,cost:null,fees:null,profit:null,roi:null,score:null,liquidity:'Non mesurée',reasons,evidence:evidence||null,assumptions:[]};
+  const output={status:'unverified',qualified:false,comparisonVerified:false,resale:null,cost:null,fees:null,profit:null,roi:null,score:null,liquidity:'Non mesurée',reasons,evidence:evidence||null,assumptions:[]};
   if(!evidence) {reasons.push('Aucun prix de reprise ni historique de ventes comparable disponible');return output;}
   if(evidence.productKey!==offer.productKey||!evidence.productKey) reasons.push('Référence exacte non concordante');
   if(evidence.currency!=='EUR'||evidence.country!=='FR') reasons.push('Marché ou devise non comparable');
@@ -57,7 +57,10 @@ export function assess(offer,evidence,config,now=Date.now()) {
     output.liquidity=monthly+' ventes comparables sur 30 jours';
     output.assumptions.push('Prix prudent : premier quartile des ventes comparables, diminué de '+config.resaleHaircutPercent+' %.');
   } else {reasons.push('Type de preuve non reconnu');return output;}
-  if(!Number.isFinite(resale)||resale<=0||!Number.isFinite(offer.price)||offer.price<=0) return output;
+  // Invalid/stale/mismatched evidence must never produce apparent profit figures.
+  if(reasons.length||!Number.isFinite(resale)||resale<=0||!Number.isFinite(offer.price)||offer.price<=0) return output;
+  if(offer.shipping!=null&&(!Number.isFinite(offer.shipping)||offer.shipping<0)) {reasons.push('Transport entrant invalide');return output;}
+  output.comparisonVerified=true;
   const inbound=Number.isFinite(offer.shipping)?offer.shipping:config.inboundShippingReserve;
   if(!Number.isFinite(offer.shipping))output.assumptions.push('Transport entrant estimé : '+inbound+' € ; à confirmer à la commande.');
   const cost=offer.price+inbound;
