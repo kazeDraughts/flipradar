@@ -2,7 +2,7 @@
 
 Site : https://kazedraughts.github.io/flipradar/
 
-État vérifié le 25 septembre 2026 : publication GitHub Pages et collecte Dealabs opérationnelles sur GitHub Actions. Les devis Easy Cash répondent en local mais renvoient HTTP 403 depuis le serveur GitHub ; ils sont donc actuellement indisponibles dans la veille hébergée. L’élargissement de la comparaison et le rétablissement de cette collecte restent à réaliser. Le premier scan hébergé ne prouve pas qu’une offre est revendable avec profit.
+État vérifié le 25 septembre 2026 : GitHub Pages, la collecte Dealabs et les quatre références de rachat Rebuy fonctionnent sur GitHub Actions. Aucun abonnement payant. Les devis Easy Cash répondent en local mais renvoient HTTP 403 depuis GitHub ; ils restent indisponibles dans la veille hébergée. L’élargissement du catalogue reste nécessaire : le scan du 25/09 à 07:32 UTC contient 13 offres actuelles, sans correspondance avec les quatre références Rebuy et sans opportunité qualifiée. Il ne prouve pas l'absence de bonnes affaires.
 
 Radar d’achat-revente en France, neuf prioritaire, budget de 1 000 € par achat. Les données affichées viennent de recherches datées, pas d’un jeu de démonstration.
 
@@ -10,7 +10,7 @@ Radar d’achat-revente en France, neuf prioritaire, budget de 1 000 € par ach
 
 - Lecture du flux RSS public Dealabs et déduplication des offres.
 - Exclusion des bons d’achat, promotions conditionnelles repérées, offres anciennes, lots et catégories hors cible.
-- Lecture de prix de reprise Easy Cash pour les références explicitement configurées.
+- Lecture de prix de reprise Rebuy pour quatre références explicites ; connecteur Easy Cash présent mais bloqué depuis GitHub.
 - Simulation achat + transport entrant + frais de revente + transport sortant + provision de risque. Seuils par défaut : bénéfice 30 €, rendement sur coût 25 %.
 - Tableau de bord, recherche, filtres, fiches sourcées et favoris locaux persistants.
 - Workflow GitHub Actions horaire (minute 17), déclenchement manuel, publication GitHub Pages.
@@ -24,7 +24,9 @@ Le scan renvoie le code 2 si la collecte échoue, 3 si aucune comparaison de mar
 
 L'intégration de ventes réalisées reste à débloquer avec une source autorisée. Recherche du 25 septembre 2026 : l'accès aux ventes réalisées via l'API eBay est restreint ([réponse du support eBay](https://community.ebay.com/forum/ebay-developers-program-57950/topic/approved-method-for-accessing-soldcompleted-listing-data-for-sell-through-research-468863/)) ; PriceCharting exige une autorisation pour diffuser ses données dans une application accessible à des tiers ([conditions](https://www.pricecharting.com/page/terms-of-service)). Aucun abonnement ni contournement de blocage n'a été mis en place. Ces services ne sont pas connectés.
 
-Dealabs est la source des offres : les marchands cités ne sont pas surveillés directement. Les reprises Easy Cash sont des estimations conditionnelles, pas des engagements d’achat. Le catalogue de comparaison initial couvre les DualSense blanches et bleues standard. D’autres produits restent « À vérifier » tant qu’un connecteur ou une correspondance exacte n’a pas été ajouté. Les éditions spéciales et accessoires sont exclus des correspondances standard.
+Dealabs est la source des offres : les marchands cités ne sont pas surveillés directement. Les reprises professionnelles sont des estimations conditionnelles, pas des engagements d’achat. Le catalogue comprend les DualSense blanches et bleues standard (Easy Cash), ainsi que quatre références Rebuy : Sony WH-1000XM5 noir, Switch OLED blanche standard, AirPods Pro 2 USB-C complets et PS5 Slim disque 1 To CFI-2016. D’autres produits restent « À vérifier » tant qu’une correspondance exacte n’a pas été ajoutée. Les éditions spéciales et accessoires sont exclus des correspondances standard ; la PS5 exige une référence de châssis explicite.
+
+Rebuy : lecture du tarif public de rachat A1 (« comme neuf »), en centimes EUR, avec vérification de l'identifiant, du titre et des indicateurs de reprise disponible. Ce n'est ni le prix de vente du magasin, ni le bon d'achat, ni un historique de ventes conclues. Le montant de base PS5 Slim a été vérifié via le questionnaire public le 25/09/2026, sans ajouter de produit au panier. Les tarifs sont relus à chaque scan, sans abonnement. Les accessoires doivent être complets ; le questionnaire final, l'état réel et les conditions d'éligibilité peuvent modifier la reprise. Une réserve de transport sortant est conservée par prudence.
 
 eBay et Leboncoin sont proposés comme liens de recherche manuelle : leurs annonces ne sont pas collectées automatiquement. L’accès HTTP aux ventes terminées eBay a répondu 403 pendant le développement. Le moteur peut traiter des ventes conclues documentées, mais aucun flux automatisé de ventes conclues n’est encore connecté. Une popularité sur Dealabs ou un prix affiché n’est jamais considéré comme une vente.
 
