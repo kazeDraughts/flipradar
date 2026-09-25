@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T07:48:58.296Z",
+  "updatedAt": "2026-09-25T08:03:21.110Z",
   "sources": [
     {
       "id": "dealabs",
       "name": "Dealabs · toutes les offres",
       "url": "https://www.dealabs.com/rss",
-      "status": "ok",
-      "count": 30,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "status": "error",
+      "error": "fetch failed",
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "dealabs-phones",
@@ -16,7 +16,7 @@
       "url": "https://www.dealabs.com/rss/groupe/telephonie",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "dealabs-gaming",
@@ -24,7 +24,7 @@
       "url": "https://www.dealabs.com/rss/groupe/consoles-jeux-video",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "dealabs-tech",
@@ -32,7 +32,7 @@
       "url": "https://www.dealabs.com/rss/groupe/high-tech",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "sony-wh1000xm5-black",
@@ -40,7 +40,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "nintendo-switch-oled-white",
@@ -48,7 +48,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "apple-airpods-pro2-usbc",
@@ -56,7 +56,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "sony-ps5-slim-1tb-disc-cfi2016",
@@ -64,7 +64,7 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "sony-dualsense-white-standard",
@@ -72,7 +72,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Blanc/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Blanc%20PS5?id=004487175&grade=B",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "sony-dualsense-blue-standard",
@@ -80,7 +80,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Bleu/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Bleu%20PS5?grade=B&id=005116764",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     },
     {
       "id": "rebuy-auto-0a7b95cee9d46410b994",
@@ -88,7 +88,7 @@
       "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-09-25T07:48:58.296Z"
+      "checkedAt": "2026-09-25T08:03:21.110Z"
     }
   ],
   "referencePrices": [
@@ -97,16 +97,24 @@
       "provider": "Rebuy",
       "productKey": "sony-wh1000xm5-black",
       "price": 108.67,
+      "grade": "A1",
+      "conditionPrices": {
+        "A1": 108.67,
+        "A2": 96.67,
+        "A3": 81.67,
+        "A4": 61.66
+      },
       "currency": "EUR",
       "country": "FR",
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "title": "Sony WH-1000XM5 noir",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "freeShipping": false,
       "assumptions": [
-        "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
-        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer."
+        "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+        "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions)."
       ]
     },
     {
@@ -114,16 +122,24 @@
       "provider": "Rebuy",
       "productKey": "nintendo-switch-oled-white",
       "price": 132.66,
+      "grade": "A1",
+      "conditionPrices": {
+        "A1": 132.66,
+        "A2": 120.03,
+        "A3": 107.4,
+        "A4": 75.83
+      },
       "currency": "EUR",
       "country": "FR",
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "title": "Nintendo Switch OLED 64 Go [incl. une manette blanc et blanc] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "freeShipping": false,
       "assumptions": [
-        "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
-        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer."
+        "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+        "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions)."
       ]
     },
     {
@@ -131,16 +147,24 @@
       "provider": "Rebuy",
       "productKey": "apple-airpods-pro2-usbc",
       "price": 82.07,
+      "grade": "A1",
+      "conditionPrices": {
+        "A1": 82.07,
+        "A2": 77.18,
+        "A3": 67.4,
+        "A4": 46.21
+      },
       "currency": "EUR",
       "country": "FR",
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "title": "Apple AirPods Pro 2 [avec boitier MagSafe USB-C] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "freeShipping": false,
       "assumptions": [
-        "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
-        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer."
+        "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+        "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+        "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions)."
       ]
     },
     {
@@ -148,16 +172,24 @@
       "provider": "Rebuy",
       "productKey": "sony-ps5-slim-1tb-disc-cfi2016",
       "price": 421.44,
+      "grade": "A1",
+      "conditionPrices": {
+        "A1": 421.44,
+        "A2": 382.24,
+        "A3": 343.05,
+        "A4": 245.05
+      },
       "currency": "EUR",
       "country": "FR",
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "title": "Sony PlayStation 5 slim 1 To [Édition disque incl. manette sans fil DualSense] blanc",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "freeShipping": false,
       "assumptions": [
-        "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+        "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
         "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+        "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions).",
         "Console avec DualSense blanche d’origine, câble USB, alimentation d’origine, HDMI 2.1 et pieds horizontaux. Questionnaire vérifié le 25/09/2026 ; aucun produit mis en vente."
       ]
     },
@@ -166,40 +198,51 @@
       "provider": "Rebuy",
       "productKey": "rebuy-auto-0a7b95cee9d46410b994",
       "price": 520.52,
+      "grade": "A1",
+      "conditionPrices": {
+        "A1": 520.52,
+        "A2": 495.37,
+        "A3": 419.92,
+        "A4": 263.99
+      },
       "currency": "EUR",
       "country": "FR",
       "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
       "title": "Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
       "titleVerified": true,
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "freeShipping": false,
       "assumptions": [
-        "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+        "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
         "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+        "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions).",
         "Correspondance automatique du titre : modèle, capacité et couleur. Version régionale, connectivité, facture et accessoires à confirmer avant achat."
       ]
     }
   ],
-  "excludedCount": 55,
+  "excludedCount": 45,
   "deals": [
     {
-      "id": "510f6638ec92e0191cc9",
-      "title": "Chargeur Magsafe Spigen Essential Magfit Qi2",
-      "url": "https://www.dealabs.com/bons-plans/chargeur-magsafe-spigen-essential-magfit-qi2-3419323",
+      "id": "476bc7e62a4ef2a805ff",
+      "title": "Casque sans fil JBL Tune 660 NC (Noir ou Bleu)",
+      "url": "https://www.dealabs.com/bons-plans/casque-sans-fil-jbl-tune-660-nc-noir-ou-bleu-3419326",
       "source": "Dealabs · high-tech",
       "sourceId": "dealabs-tech",
-      "merchant": "Amazon",
+      "merchant": "E.Leclerc",
       "category": "High-Tech",
-      "price": 38.49,
+      "price": 39.99,
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
-      "shipping": null,
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": 0,
       "conditionalPrice": null,
-      "publishedAt": "2026-09-25T07:47:33.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "publishedAt": "2026-09-25T07:50:23.000Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
-      "firstSeen": "2026-09-25T07:48:58.296Z",
+      "firstSeen": "2026-09-25T08:03:21.110Z",
       "stale": false,
       "exclusions": [],
       "discovery": {
@@ -226,6 +269,55 @@
       }
     },
     {
+      "id": "510f6638ec92e0191cc9",
+      "title": "Chargeur Magsafe Spigen Essential Magfit Qi2 (vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/chargeur-magsafe-spigen-essential-magfit-qi2-3419323",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 38.49,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [
+        "Mention d’occasion dans la description : état à confirmer"
+      ],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-09-25T07:47:33.000Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
+      "productKey": null,
+      "firstSeen": "2026-09-25T07:48:58.296Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "État ou défaut à vérifier : Mention d’occasion dans la description : état à confirmer",
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
       "id": "50de57b2cb92a3d9c1b3",
       "title": "Appareil photo Fujifilm X-M5 avec objectif XC 15-45mm Silver",
       "url": "https://www.dealabs.com/bons-plans/fujifilm-x-m5-avec-objectif-xc-15-45mm-silver-a-89991-via-code-fuji10-3419318",
@@ -237,10 +329,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:39:39.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -286,12 +381,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -304,8 +397,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -329,12 +422,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:32:35.625Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -347,8 +438,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -372,12 +463,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:48:58.296Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -390,8 +479,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -415,12 +504,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -433,8 +520,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -492,10 +579,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:15:14.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
       "stale": false,
@@ -541,12 +631,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:22:26.819Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -559,8 +647,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -578,10 +666,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:05:31.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:06:49.990Z",
       "stale": false,
@@ -627,12 +718,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -645,8 +734,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -664,10 +753,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T07:02:44.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -713,12 +805,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -731,8 +821,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -756,12 +846,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -774,8 +862,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -793,10 +881,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:52:44.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -836,10 +927,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:52:08.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -885,12 +979,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -903,8 +995,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -922,10 +1014,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": 0,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:48:22.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:04:50.358Z",
       "stale": false,
@@ -965,10 +1060,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:06:38.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": "rebuy-auto-0a7b95cee9d46410b994",
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -997,28 +1095,38 @@
           "provider": "Rebuy",
           "productKey": "rebuy-auto-0a7b95cee9d46410b994",
           "price": 520.52,
+          "grade": "A1",
+          "conditionPrices": {
+            "A1": 520.52,
+            "A2": 495.37,
+            "A3": 419.92,
+            "A4": 263.99
+          },
           "currency": "EUR",
           "country": "FR",
           "url": "https://www.rebuy.fr/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569",
           "title": "Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane",
           "titleVerified": true,
-          "observedAt": "2026-09-25T07:48:58.296Z",
+          "observedAt": "2026-09-25T08:03:21.110Z",
           "freeShipping": false,
           "assumptions": [
-            "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+            "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
             "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+            "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions).",
             "Correspondance automatique du titre : modèle, capacité et couleur. Version régionale, connectivité, facture et accessoires à confirmer avant achat."
           ]
         },
         "assumptions": [
           "Estimation de rachat non contractuelle, sous réserve de contrôle de l’état, des accessoires et de l’éligibilité du vendeur.",
-          "Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
+          "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
           "Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.",
+          "Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions).",
           "Correspondance automatique du titre : modèle, capacité et couleur. Version régionale, connectivité, facture et accessoires à confirmer avant achat.",
           "Transport entrant estimé : 10 € ; à confirmer à la commande.",
           "Provision de risque : 5 % de la revente. Calcul avant fiscalité et rémunération du temps. Stock et prix à reconfirmer avant achat."
         ],
         "feeRate": 0,
+        "riskRate": 5,
         "outbound": 8,
         "inbound": 10
       }
@@ -1035,10 +1143,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T06:03:37.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1118,10 +1229,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:48:24.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1161,10 +1275,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:47:04.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1284,10 +1401,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:35:12.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1367,10 +1487,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T05:24:20.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T06:32:33.807Z",
       "stale": false,
@@ -1450,10 +1573,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T00:51:16.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1493,10 +1619,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-25T00:06:29.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1536,10 +1665,15 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [
+        "Mention d’occasion dans la description : état à confirmer"
+      ],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T22:07:44.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1560,6 +1694,7 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
+          "État ou défaut à vérifier : Mention d’occasion dans la description : état à confirmer",
           "Aucun prix de reprise ni historique de ventes comparable disponible",
           "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
         ],
@@ -1579,10 +1714,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T21:13:53.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1622,10 +1760,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T20:38:13.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1665,10 +1806,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:58:28.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1708,10 +1852,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:56:19.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1751,10 +1898,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:50:38.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1794,10 +1944,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:48:49.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1837,10 +1990,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:21:16.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1880,10 +2036,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:17:53.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1923,10 +2082,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T19:15:54.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -1972,12 +2134,10 @@
       "observedAt": "2026-09-25T07:48:58.296Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1990,8 +2150,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2009,10 +2169,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T18:47:47.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2093,10 +2256,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T18:25:35.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2136,10 +2302,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T18:11:04.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2180,10 +2349,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T13:19:01.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2224,10 +2396,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T08:41:07.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2267,10 +2442,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T07:23:00.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2310,10 +2488,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-24T04:17:21.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2353,10 +2534,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T15:54:41.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2396,10 +2580,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T15:05:51.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2439,10 +2626,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T13:41:25.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2482,10 +2672,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "used",
+      "conditionGrade": "very-good",
+      "conditionLabel": "Très bon état annoncé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T09:18:52.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2525,10 +2718,13 @@
       "currency": "EUR",
       "country": "FR",
       "condition": "used",
+      "conditionGrade": "very-good",
+      "conditionLabel": "Très bon état annoncé",
+      "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-09-23T08:23:14.000Z",
-      "observedAt": "2026-09-25T07:48:58.296Z",
+      "observedAt": "2026-09-25T08:03:21.110Z",
       "productKey": null,
       "firstSeen": "2026-09-25T07:44:54.425Z",
       "stale": false,
@@ -2569,11 +2765,11 @@
     "state": "partial",
     "message": "Couverture partielle : seules les offres avec comparaison vérifiée peuvent produire une alerte.",
     "exitCode": 0,
-    "currentOffers": 48,
+    "currentOffers": 39,
     "comparedOffers": 1,
-    "unverifiedOffers": 47,
+    "unverifiedOffers": 38,
     "qualifiedOffers": 0,
-    "acquisitionSources": 4,
+    "acquisitionSources": 3,
     "comparisonSources": 5,
     "currentReferences": 5
   }
