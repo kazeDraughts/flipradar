@@ -11,6 +11,17 @@ test('French euro prices do not silently turn ranges or cashback into a price',(
 test('net profit includes outbound shipping and risk reserve',()=>{const a=assess(deal,quote,config,now);assert.equal(a.cost,100);assert.equal(a.fees,18);assert.equal(a.profit,82);assert.equal(a.roi,82);assert.equal(a.qualified,true);});
 test('unknown shipping is budgeted rather than treated as free',()=>{const a=assess({...deal,shipping:null},quote,config,now);assert.equal(a.cost,110);assert.equal(a.profit,72);});
 test('a stale quote never qualifies',()=>{assert.equal(assess(deal,{...quote,observedAt:'2026-09-20T00:00:00Z'},config,now).qualified,false);});
+test('invalid evidence never displays an apparent resale margin',()=>{
+  for(const evidence of [{...quote,productKey:'other'},{...quote,country:'US'},{...quote,observedAt:'2026-09-20T00:00:00Z'},{...quote,titleVerified:false}]){
+    const a=assess(deal,evidence,config,now);assert.equal(a.comparisonVerified,false);assert.equal(a.profit,null);assert.equal(a.resale,null);
+  }
+});
+test('negative shipping cannot inflate profit',()=>{
+  const a=assess({...deal,shipping:-50},quote,config,now);assert.equal(a.qualified,false);assert.equal(a.profit,null);
+});
+test('valid but unprofitable evidence still counts as a verified comparison',()=>{
+  const a=assess({...deal,price:250},quote,config,now);assert.equal(a.comparisonVerified,true);assert.equal(a.qualified,false);assert.ok(a.profit<0);
+});
 test('variant and country mismatches never qualify',()=>{assert.equal(assess(deal,{...quote,productKey:'other'},config,now).qualified,false);assert.equal(assess(deal,{...quote,country:'US'},config,now).qualified,false);});
 test('cashback and vouchers are excluded from cash arbitrage',()=>{assert.ok(classify({...deal,title:'Lego via 20€ carte de fidélité'},config,now).length);assert.ok(classify({...deal,title:'30€ en bon d’achat'},config,now).length);});
 test('a score is absent when there is no market evidence',()=>{const a=assess(deal,null,config,now);assert.equal(a.profit,null);assert.equal(a.score,null);assert.equal(a.qualified,false);});
