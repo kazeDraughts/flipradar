@@ -21,6 +21,39 @@
   "excludedCategoryPatterns": ["alimentation", "épicerie", "voyages", "santé", "services"],
   "productMappings": [
     {
+      "key": "sony-wh1000xm5-black", "provider": "rebuy", "providerId": 12553215,
+      "label": "Sony WH-1000XM5 noir · comme neuf",
+      "required": [["wh 1000xm5", "wh1000xm5"], ["noir", "black"]],
+      "excluded": ["coque", "housse", "etui", "coussinets", "coussin", "cable", "arceau", "reparation", "pour", "piece", "pieces", "defectueux", "panne"],
+      "expectedTitle": ["Sony", "WH-1000XM5", "noir"],
+      "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215"
+    },
+    {
+      "key": "nintendo-switch-oled-white", "provider": "rebuy", "providerId": 12261899,
+      "label": "Switch OLED blanche standard · comme neuve",
+      "required": ["switch", "oled", ["blanc", "blanche", "white"], "console"],
+      "excluded": ["edition", "zelda", "mario", "splatoon", "pokemon", "coque", "housse", "etui", "protection", "pour", "piece", "pieces", "sans", "defectueux", "panne", "japon", "import"],
+      "expectedTitle": ["Nintendo Switch OLED", "64 Go", "blanc"],
+      "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899"
+    },
+    {
+      "key": "apple-airpods-pro2-usbc", "provider": "rebuy", "providerId": 15189654,
+      "label": "AirPods Pro 2 USB-C complets · comme neufs",
+      "required": ["airpods", "pro", ["2", "2eme"], ["usb c", "usbc"], ["ecouteurs", "ecouteur"]],
+      "excluded": ["coque", "housse", "etui", "seul", "seule", "gauche", "droit", "pour", "piece", "pieces", "defectueux", "panne", "lightning", "sans boitier"],
+      "expectedTitle": ["Apple AirPods Pro 2", "MagSafe USB-C"],
+      "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654"
+    },
+    {
+      "key": "sony-ps5-slim-1tb-disc-cfi2016", "provider": "rebuy", "providerId": 15358283,
+      "label": "PS5 Slim disque 1 To CFI-2016 · comme neuve",
+      "required": [["ps5", "playstation 5"], "slim", ["1 to", "1to", "1 tb", "1tb"], ["disque", "disc", "lecteur"], ["cfi 2016", "cfi2016"]],
+      "excluded": ["digital", "numerique", "pro", "e chassis", "2116", "coque", "pour", "sans", "piece", "pieces", "defectueux", "panne", "import", "japon"],
+      "expectedTitle": ["Sony PlayStation 5 slim", "1 To", "Édition disque", "blanc"],
+      "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
+      "quoteAssumptions": ["Console avec DualSense blanche d’origine, câble USB, alimentation d’origine, HDMI 2.1 et pieds horizontaux. Questionnaire vérifié le 25/09/2026 ; aucun produit mis en vente."]
+    },
+    {
       "key": "sony-dualsense-white-standard",
       "label": "DualSense blanche standard · bon état",
       "required": ["dualsense", ["blanc", "blanche", "white"]],
