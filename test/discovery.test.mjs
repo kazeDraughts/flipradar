@@ -19,6 +19,10 @@ test('plus, pro max, folding models and audio models remain distinct',()=>{
   assert.equal(productIdentity('Samsung Galaxy Z Fold4 5G 256 GB Noir Dual-SIM').model,'galaxy z fold 4');
   assert.equal(productIdentity('Sony WH-1000XM6 noir').model,'wh1000xm6');
   assert.notEqual(productIdentity('Sony WH-1000XM6 noir').key,productIdentity('Sony WF-1000XM6 noir').key);
+  assert.notEqual(productIdentity('Samsung S25 Edge 256 Go noir').key,productIdentity('Samsung S25 256 Go noir').key);
+  assert.notEqual(productIdentity('Apple iPhone 17 Air 256 Go noir').key,productIdentity('Apple iPhone 17 256 Go noir').key);
+  assert.equal(productIdentity('Apple iPhone 16 E 128 Go blanc').key,productIdentity('Apple iPhone 16e 128 Go blanc').key);
+  assert.notEqual(productIdentity('Samsung Galaxy S20 FE 5G 128 Go noir').key,productIdentity('Samsung Galaxy S20 FE 4G 128 Go noir').key);
 });
 test('unknown variants, missing capacity, accessories and multiple choices cannot match',()=>{
   for(const t of ['Samsung Galaxy S25 Ultra 256 Go','Samsung Galaxy S25 Ultra noir titane','Samsung Galaxy S25 Ultra 256 Go blanc et noir','Samsung Galaxy S25 Ultra 256 Go ou 512 Go noir','Coque pour Samsung Galaxy S25 Ultra 256 Go noir titane','Samsung Galaxy A55 128 Go noir','iPhone 15 ou iPhone 16 128 Go noir','Sony WH-1000XM5 et WH-1000XM6 noir','Sélection de Samsung Galaxy S25 Ultra 256 Go noir','Samsung Galaxy S25 Ultra 256 Go noir version globale'])assert.equal(productIdentity(t),null,t);
