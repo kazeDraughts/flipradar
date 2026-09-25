@@ -24,6 +24,10 @@ test('valid but unprofitable evidence still counts as a verified comparison',()=
 });
 test('variant and country mismatches never qualify',()=>{assert.equal(assess(deal,{...quote,productKey:'other'},config,now).qualified,false);assert.equal(assess(deal,{...quote,country:'US'},config,now).qualified,false);});
 test('cashback and vouchers are excluded from cash arbitrage',()=>{assert.ok(classify({...deal,title:'Lego via 20€ carte de fidélité'},config,now).length);assert.ok(classify({...deal,title:'30€ en bon d’achat'},config,now).length);});
+test('trade-in, deferred refunds and restricted memberships never become unconditional prices',()=>{
+  for(const title of ['Pixel 10 via 100€ de bonus de reprise','Fairphone via ODR de 50€','Samsung via remise sur facture','[The corner - BoursoBank] Samsung Galaxy','[Etudiants/Unidays] Apple iPhone'])assert.ok(classify({...deal,title},config,now).length,title);
+  assert.ok(classify({...deal,conditionalPrice:'bonus de reprise'},config,now).length);
+});
 test('a score is absent when there is no market evidence',()=>{const a=assess(deal,null,config,now);assert.equal(a.profit,null);assert.equal(a.score,null);assert.equal(a.qualified,false);});
 test('deduplicate completed sales and exclude asking prices',()=>{const sale={status:'sold',productKey:'test-model',condition:'new',currency:'EUR',country:'FR',soldAt:'2026-09-24T12:00:00Z',price:200,url:'https://example.com/sold/1'};const e={type:'sold',productKey:'test-model',currency:'EUR',country:'FR',observedAt:quote.observedAt,sales:[...Array(8).fill(sale),{...sale,url:'https://example.com/2',status:'active'}]};const a=assess(deal,e,config,now);assert.equal(a.evidence.sales.length,1);assert.equal(a.qualified,false);});
 test('new old-looking sales without recent demand do not qualify',()=>{const e={...quote,type:'sold',sales:Array.from({length:6},(_,i)=>({status:'sold',productKey:'test-model',condition:'new',currency:'EUR',country:'FR',soldAt:'2026-07-24T12:00:00Z',price:200,url:'https://example.com/'+i}))};assert.equal(assess(deal,e,config,now).qualified,false);});
