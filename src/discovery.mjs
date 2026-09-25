@@ -31,19 +31,19 @@ function colourOf(title){
   }
   return found.length===1?found[0]:null;
 }
-const accessory=/\b(?:pour|coque|housse|protection|coussinets|embouts|boitier seul|boitier de charge|piece|pieces|reparation|defectueux|panne|lot|pack|import|globale|global|chinoise|chinois|japon|us|usa|seul|seule|selection|plusieurs|au choix)\b/;
+const accessory=/\b(?:pour|coque|housse|protection|coussinets|embouts|boitier seul|boitier de charge|piece|pieces|reparation|defectueux|panne|lot|pack|import|globale|global|chinoise|chinois|japon|us|usa|seul|seule|selection|plusieurs|au choix|edition|enterprise)\b/;
 export function productIdentity(title){
   const n=normal(String(title).replace(/\b(S\d{2})\s*\+/gi,'$1 plus')).replace(/\bfold\s*(\d+)/g,'fold $1').replace(/\bflip\s*(\d+)/g,'flip $1');
   if(accessory.test(n))return null;
   if(/(?:iphone|pixel|galaxy|1000\s?xm).*\b(?:ou|et)\b/.test(n))return null;
   let model,brand,family,storage=null;
   const sony=n.match(/\b(?:wh|wf)\s?1000\s?xm\d+\b/);
-  const samsung=n.match(/\b(?:samsung\s+)?(?:galaxy\s+)?(s\d{2}(?:\s+(?:ultra|plus|fe))?|a\d{2}(?:\s+[45]g)?|z\s+(?:fold|flip)\s+\d+(?:\s+ultra)?)\b/);
-  const iphone=n.match(/\biphone\s+(\d{1,2}[e]?(?:\s+(?:pro max|pro|plus|mini))?)\b/);
-  const pixel=n.match(/\bpixel\s+(\d{1,2}a?(?:\s+(?:pro xl|pro fold|pro|xl))?)\b/);
+  const samsung=n.match(/\b(?:samsung\s+)?(?:galaxy\s+)?(s\d{2}(?:\s+(?:ultra|plus|fe|edge|lite))?|a\d{2}(?:\s+[45]g)?|z\s+(?:fold|flip)\s+\d+(?:\s+ultra)?)\b/);
+  const iphone=n.match(/\biphone\s+(\d{1,2}(?:\s?e)?(?:\s+(?:pro max|pro|plus|mini|air|ultra))?)\b/);
+  const pixel=n.match(/\bpixel\s+(\d{1,2}a?(?:\s+(?:pro xl|pro fold|pro|xl|fold))?)\b/);
   if(sony&&/\bsony\b/.test(n)){brand='sony';model=sony[0].replaceAll(' ','');family='audio';}
   else if(samsung&&/\bsamsung\b/.test(n)){brand='samsung';model='galaxy '+samsung[1];family='phone';if(/^a\d{2}$/.test(samsung[1]))return null;}
-  else if(iphone){brand='apple';model='iphone '+iphone[1];family='phone';}
+  else if(iphone){brand='apple';model='iphone '+iphone[1].replace(/(\d) e\b/,'$1e');family='phone';}
   else if(pixel){brand='google';model='pixel '+pixel[1];family='phone';}
   else return null;
   // Earlier Galaxy S/FE generations exist in distinct 4G and 5G versions.
