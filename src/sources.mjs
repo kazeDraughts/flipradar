@@ -28,9 +28,12 @@ export function parseDealabs(xml,source,observedAt=new Date().toISOString()) {
     const title=String(item.title||'').trim();if(!title)return [];
     const plain=load(String(item.description||'')).text();
     const condition=/occasion|reconditionn|seconde main/i.test(title)?'used':'new';
-    const shipping=/livraison\s+(?:est\s+)?(?:gratuite|offerte)/i.test(plain)?0:null;
+    const freeShipping=/livraison\s+(?:est\s+)?(?:gratuite|offerte)/i.test(plain);
+    const shipping=freeShipping&&!/prime|en magasin|a partir|dès|des \d/i.test(plain)?0:null;
+    const terms=normal(plain);
+    const conditionalPrice=/\b(?:bonus de reprise|bonus reprise|apres odr|via odr|nouveaux clients|carte de fidelite|reserve aux membres|reserve aux etudiants)\b/.exec(terms)?.[0]||null;
     const publication=Date.parse(item.pubDate);
-    return [{id:idFor(url),title,url,source:source.name,sourceId:source.id,merchant:String(merchant['@name']||'À vérifier'),category:String(item.category||''),price:euros(merchant['@price']),currency:'EUR',country:'FR',condition,shipping,publishedAt:Number.isFinite(publication)?new Date(publication).toISOString():null,observedAt,productKey:null}];
+    return [{id:idFor(url),title,url,source:source.name,sourceId:source.id,merchant:String(merchant['@name']||'À vérifier'),category:String(item.category||''),price:euros(merchant['@price']),currency:'EUR',country:'FR',condition,shipping,conditionalPrice,publishedAt:Number.isFinite(publication)?new Date(publication).toISOString():null,observedAt,productKey:null}];
   });
 }
 export function parseEasyCash(html,mapping,observedAt=new Date().toISOString()) {

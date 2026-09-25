@@ -19,6 +19,8 @@ export function classify(offer, config, now=Date.now()) {
   for(const pattern of config.excludedTitlePatterns) if(title.includes(normal(pattern))) reasons.push('Condition particulière : '+pattern);
   for(const pattern of config.excludedCategoryPatterns) if(category.includes(normal(pattern))) reasons.push('Catégorie exclue : '+pattern);
   if(/\b(?:lot|pack)\b/.test(title)) reasons.push('Composition du lot à vérifier');
+  if(/\b(?:odr|cashback|bonus reprise|bonus de reprise|bonus reprises|remise sur facture|sur la carte|compte fidelite|forfait|thecorner|the corner|boursobank|unidays|etudiants|macif avantage|frontaliers)\b/.test(title))reasons.push('Prix soumis à remboursement, reprise, fidélité, localisation ou statut particulier');
+  if(offer.conditionalPrice)reasons.push('Condition de prix repérée dans la description : '+offer.conditionalPrice);
   return reasons;
 }
 export function matchingMapping(offer,mappings) {
