@@ -16,7 +16,14 @@
   "inboundShippingReserve": 10,
   "alertOwner": "kazeDraughts",
   "alertsEnabled": true,
-  "sources": [{"id":"dealabs","name":"Dealabs · toutes les offres","type":"dealabs-rss","url":"https://www.dealabs.com/rss"}],
+  "automaticRebuyDiscovery": true,
+  "maximumDiscoveryQueries": 10,
+  "sources": [
+    {"id":"dealabs","name":"Dealabs · toutes les offres","type":"dealabs-rss","url":"https://www.dealabs.com/rss"},
+    {"id":"dealabs-phones","name":"Dealabs · téléphonie","type":"dealabs-rss","url":"https://www.dealabs.com/rss/groupe/telephonie"},
+    {"id":"dealabs-gaming","name":"Dealabs · consoles et jeux vidéo","type":"dealabs-rss","url":"https://www.dealabs.com/rss/groupe/consoles-jeux-video"},
+    {"id":"dealabs-tech","name":"Dealabs · high-tech","type":"dealabs-rss","url":"https://www.dealabs.com/rss/groupe/high-tech"}
+  ],
   "excludedTitlePatterns": ["dématérialisé", "code in the box", "bon d'achat", "bons d'achat", "carte de fidélité", "cagnott", "nouveaux clients", "abonnement", "prime", "whisky", "bière", "cigarette", "arme"],
   "excludedCategoryPatterns": ["alimentation", "épicerie", "voyages", "santé", "services"],
   "productMappings": [

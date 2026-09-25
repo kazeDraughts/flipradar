@@ -2,21 +2,29 @@
 
 Site : https://kazedraughts.github.io/flipradar/
 
-État vérifié le 25 septembre 2026 : GitHub Pages, la collecte Dealabs et les quatre références de rachat Rebuy fonctionnent sur GitHub Actions. Aucun abonnement payant. Les devis Easy Cash répondent en local mais renvoient HTTP 403 depuis GitHub ; ils restent indisponibles dans la veille hébergée. L’élargissement du catalogue reste nécessaire : le scan du 25/09 à 07:32 UTC contient 13 offres actuelles, sans correspondance avec les quatre références Rebuy et sans opportunité qualifiée. Il ne prouve pas l'absence de bonnes affaires.
+État au 25 septembre 2026 : GitHub Pages, la collecte Dealabs et les références de rachat Rebuy fonctionnent sur GitHub Actions. Aucun abonnement payant. La recherche automatique élargit désormais le catalogue aux modèles reconnus dans les offres ; le diagnostic publié affiche la couverture réellement obtenue à chaque scan. Les devis Easy Cash répondent en local mais renvoient HTTP 403 depuis GitHub ; ils restent indisponibles dans la veille hébergée. Zéro opportunité qualifiée ne prouve pas l'absence de bonnes affaires parmi les offres non couvertes.
 
 Radar d’achat-revente en France, neuf prioritaire, budget de 1 000 € par achat. Les données affichées viennent de recherches datées, pas d’un jeu de démonstration.
 
 ## Ce qui fonctionne
 
-- Lecture du flux RSS public Dealabs et déduplication des offres.
+- Lecture de quatre flux RSS publics Dealabs et déduplication des offres.
 - Exclusion des bons d’achat, promotions conditionnelles repérées, offres anciennes, lots et catégories hors cible.
-- Lecture de prix de reprise Rebuy pour quatre références explicites ; connecteur Easy Cash présent mais bloqué depuis GitHub.
+- Lecture de prix de reprise Rebuy pour quatre références explicites et découverte automatique de modèles reconnus ; connecteur Easy Cash présent mais bloqué depuis GitHub.
 - Simulation achat + transport entrant + frais de revente + transport sortant + provision de risque. Seuils par défaut : bénéfice 30 €, rendement sur coût 25 %.
 - Tableau de bord, recherche, filtres, fiches sourcées et favoris locaux persistants.
 - Workflow GitHub Actions horaire (minute 17), déclenchement manuel, publication GitHub Pages.
 - Une issue avec mention du propriétaire par nouvelle opportunité qualifiée, sans répétition. Réception email selon les réglages GitHub du destinataire. Un test de réception peut être lancé depuis Actions.
 
 ## Couverture et limites actuelles
+
+### Recherche automatique gratuite
+
+Quatre flux Dealabs sont lus et dédupliqués : général, téléphonie, consoles/jeux vidéo et high-tech. Ils couvrent davantage d'offres que les seules 30 dernières du flux général, mais ne représentent pas une surveillance directe ni exhaustive des marchands.
+
+Le radar sait rechercher une nouvelle référence Rebuy sans entrée manuelle pour les familles suivantes : Samsung Galaxy S/A/Z, Apple iPhone, Google Pixel et casques/écouteurs Sony WH/WF-1000XM. Il exige un modèle reconnu, une seule capacité de stockage pour les téléphones et une couleur reconnue. Les variantes imprécises, les accessoires, les titres à choix multiples et les résultats ambigus ne sont pas retenus. La fiche produit est ensuite relue pour confirmer le titre, l'identifiant et le prix de rachat disponible. Une correspondance de titre ne certifie pas la version régionale ni l'état réel ; ces limites figurent dans la fiche.
+
+Au maximum `maximumDiscoveryQueries` recherches distinctes (10 par scan) sont effectuées, en donnant priorité aux offres récentes. Les offres différées ou non reconnues restent à vérifier, sans marge inventée. Les reprises, ODR et avantages réservés repérés sont exclus du prix cash. Aucun compte Rebuy, abonnement ni vente automatique n'est créé.
 
 Le diagnostic distingue une panne de collecte, une panne de comparaison et une couverture insuffisante. Le site affiche combien d'offres actuelles disposent réellement d'une comparaison vérifiée. Zéro opportunité rentable n'est pas une conclusion valable lorsque les comparaisons sont indisponibles.
 
