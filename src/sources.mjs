@@ -1,6 +1,6 @@
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { load } from 'cheerio';
-import { euros, httpsUrl, idFor, normal } from './core.mjs';
+import { euros, httpsUrl, idFor, normal, conditionFromTitle } from './core.mjs';
 
 const allowed=new Set(['www.dealabs.com','prix.easycash.fr','www.rebuy.fr']);
 export async function fetchPublic(url,{timeout=20000}={}) {
@@ -27,13 +27,15 @@ export function parseDealabs(xml,source,observedAt=new Date().toISOString()) {
     const merchant=item['pepper:merchant']||{};
     const title=String(item.title||'').trim();if(!title)return [];
     const plain=load(String(item.description||'')).text();
-    const condition=/occasion|reconditionn|seconde main/i.test(title)?'used':'new';
+    const condition=conditionFromTitle(title);
+    const conditionWarnings=[...new Set((normal(title+' '+plain).match(/\b(?:pour pieces|ecran casse|batterie hs|batterie defectueuse|ne fonctionne pas|non fonctionnel|oxydation|bloque icloud|compte bloque|accessoires manquants|sans accessoires|pieces non originales)\b/g)||[]))];
+    if(condition.condition==='new'&&conditionFromTitle(plain).condition==='used')conditionWarnings.push('Mention d’occasion dans la description : état à confirmer');
     const freeShipping=/livraison\s+(?:est\s+)?(?:gratuite|offerte)/i.test(plain);
     const shipping=freeShipping&&!/prime|en magasin|a partir|dès|des \d/i.test(plain)?0:null;
     const terms=normal(plain);
     const conditionalPrice=/\b(?:bonus de reprise|bonus reprise|apres odr|via odr|nouveaux clients|carte de fidelite|reserve aux membres|reserve aux etudiants)\b/.exec(terms)?.[0]||null;
     const publication=Date.parse(item.pubDate);
-    return [{id:idFor(url),title,url,source:source.name,sourceId:source.id,merchant:String(merchant['@name']||'À vérifier'),category:String(item.category||''),price:euros(merchant['@price']),currency:'EUR',country:'FR',condition,shipping,conditionalPrice,publishedAt:Number.isFinite(publication)?new Date(publication).toISOString():null,observedAt,productKey:null}];
+    return [{id:idFor(url),title,url,source:source.name,sourceId:source.id,merchant:String(merchant['@name']||'À vérifier'),category:String(item.category||''),price:euros(merchant['@price']),currency:'EUR',country:'FR',...condition,conditionWarnings,shipping,conditionalPrice,publishedAt:Number.isFinite(publication)?new Date(publication).toISOString():null,observedAt,productKey:null}];
   });
 }
 export function parseEasyCash(html,mapping,observedAt=new Date().toISOString()) {
@@ -64,8 +66,15 @@ export function parseRebuy(html,mapping,observedAt=new Date().toISOString()) {
   const cents=product.purchase_a1_price;
   const variants=product.variants?.filter(v=>v.label==='A1')||[];
   if(!Number.isSafeInteger(cents)||cents<=0||variants.length!==1||variants[0].purchasePrice!==cents)throw Error('Prix de reprise Rebuy absent ou incohérent');
-  return {type:'buyback',provider:'Rebuy',productKey:mapping.key,price:cents/100,currency:'EUR',country:'FR',url:mapping.url,title,titleVerified:true,observedAt,freeShipping:false,
-    assumptions:['Tarif de rachat public A1 (« comme neuf »), paiement en argent hors coupons et bons d’achat. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.',
+  const conditionPrices={};
+  for(const grade of ['A1','A2','A3','A4']){
+    const amount=product['purchase_'+grade.toLowerCase()+'_price'];
+    const entries=product.variants.filter(v=>v.label===grade);
+    if(Number.isSafeInteger(amount)&&amount>0&&entries.length===1&&entries[0].purchasePrice===amount)conditionPrices[grade]=amount/100;
+  }
+  return {type:'buyback',provider:'Rebuy',productKey:mapping.key,price:cents/100,grade:'A1',conditionPrices,currency:'EUR',country:'FR',url:mapping.url,title,titleVerified:true,observedAt,freeShipping:false,
+    assumptions:['Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.',
       'Hypothèse : produit pleinement fonctionnel, authentique, complet avec tous les accessoires d’origine requis. Éligibilité du vendeur et conditions de reprise à confirmer.',
+      'Les conditions Rebuy visent les consommateurs finaux et les quantités usuelles de particuliers. L’éligibilité d’une activité d’achat-revente, les justificatifs et les conditions applicables doivent être confirmés auprès de Rebuy avant achat (https://www.rebuy.fr/legal/terms-and-conditions).',
       ...(mapping.quoteAssumptions||[])]};
 }

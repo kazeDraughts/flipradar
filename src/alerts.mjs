@@ -4,7 +4,7 @@ export const marker=id=>'<!-- flipradar:'+id+' -->';
 export function alertCandidates(data,config,existingBodies,now=Date.now()) {
   if(!config.alertsEnabled||!fresh(data.updatedAt,now,3))return [];
   const known=existingBodies.join('\n');
-  return data.deals.filter(d=>!d.stale&&fresh(d.publishedAt,now,config.maximumOfferAgeHours)&&httpsUrl(d.url)&&assess(d,d.analysis?.evidence,config,now).qualified&&!known.includes(marker(d.id))).slice(0,10);
+  return data.deals.filter(d=>!d.stale&&fresh(d.publishedAt,now,config.maximumOfferAgeHours)&&httpsUrl(d.url)&&!known.includes(marker(d.id))).map(d=>({...d,analysis:assess(d,d.analysis?.evidence,config,now)})).filter(d=>d.analysis.qualified).slice(0,10);
 }
 export function alertBody(deal,owner) {
   if(!/^[a-zA-Z0-9-]+$/.test(owner))throw Error('Destinataire GitHub invalide');
