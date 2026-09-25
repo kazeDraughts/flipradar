@@ -18,6 +18,12 @@ Radar d’achat-revente en France, neuf prioritaire, budget de 1 000 € par ach
 
 ## Couverture et limites actuelles
 
+Le diagnostic distingue une panne de collecte, une panne de comparaison et une couverture insuffisante. Le site affiche combien d'offres actuelles disposent réellement d'une comparaison vérifiée. Zéro opportunité rentable n'est pas une conclusion valable lorsque les comparaisons sont indisponibles.
+
+Le scan renvoie le code 2 si la collecte échoue, 3 si aucune comparaison de marché actuelle n'est disponible, et 4 si son résultat est périmé. Le workflow publie d'abord ce diagnostic, puis signale l'échec : un flux Dealabs fonctionnel ne suffit plus à afficher une exécution réussie. Les preuves périmées, non concordantes ou insuffisantes ne produisent aucun chiffre de bénéfice.
+
+L'intégration de ventes réalisées reste à débloquer avec une source autorisée. Recherche du 25 septembre 2026 : l'accès aux ventes réalisées via l'API eBay est restreint ([réponse du support eBay](https://community.ebay.com/forum/ebay-developers-program-57950/topic/approved-method-for-accessing-soldcompleted-listing-data-for-sell-through-research-468863/)) ; PriceCharting exige une autorisation pour diffuser ses données dans une application accessible à des tiers ([conditions](https://www.pricecharting.com/page/terms-of-service)). Aucun abonnement ni contournement de blocage n'a été mis en place. Ces services ne sont pas connectés.
+
 Dealabs est la source des offres : les marchands cités ne sont pas surveillés directement. Les reprises Easy Cash sont des estimations conditionnelles, pas des engagements d’achat. Le catalogue de comparaison initial couvre les DualSense blanches et bleues standard. D’autres produits restent « À vérifier » tant qu’un connecteur ou une correspondance exacte n’a pas été ajouté. Les éditions spéciales et accessoires sont exclus des correspondances standard.
 
 eBay et Leboncoin sont proposés comme liens de recherche manuelle : leurs annonces ne sont pas collectées automatiquement. L’accès HTTP aux ventes terminées eBay a répondu 403 pendant le développement. Le moteur peut traiter des ventes conclues documentées, mais aucun flux automatisé de ventes conclues n’est encore connecté. Une popularité sur Dealabs ou un prix affiché n’est jamais considéré comme une vente.
