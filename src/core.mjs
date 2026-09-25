@@ -40,7 +40,7 @@ export function matchingMapping(offer,mappings) {
 export function assess(offer,evidence,config,now=Date.now()) {
   const reasons=[...(offer.exclusions||[])];
   if(offer.conditionWarnings?.length)reasons.push('État ou défaut à vérifier : '+offer.conditionWarnings.join(', '));
-  const output={status:'unverified',qualified:false,comparisonVerified:false,resale:null,cost:null,fees:null,profit:null,roi:null,score:null,liquidity:'Non mesurée',reasons,evidence:evidence||null,assumptions:[]};
+  const output={status:'unverified',qualified:false,comparisonVerified:false,resale:null,cost:null,fees:null,profit:null,roi:null,maximumPurchasePrice:null,score:null,liquidity:'Non mesurée',reasons,evidence:evidence||null,assumptions:[]};
   if(!evidence) {reasons.push('Aucun prix de reprise ni historique de ventes comparable disponible');return output;}
   if(evidence.productKey!==offer.productKey||!evidence.productKey) reasons.push('Référence exacte non concordante');
   if(evidence.currency!=='EUR'||evidence.country!=='FR') reasons.push('Marché ou devise non comparable');
@@ -96,6 +96,10 @@ export function assess(offer,evidence,config,now=Date.now()) {
   const fees=resale*(feeRate+riskRate)/100+outbound;
   const profit=resale-cost-fees;
   const roi=100*profit/cost;
+  const netProceeds=resale-fees;
+  const maximumCost=Math.min(config.maximumPurchase,netProceeds-config.minimumProfit,netProceeds/(1+config.minimumRoiPercent/100));
+  // Floor to cents: rounding up could cross the configured profit/ROI boundary.
+  output.maximumPurchasePrice=Math.max(0,Math.floor((maximumCost-inbound+1e-9)*100)/100);
   Object.assign(output,{resale:round(resale),cost:round(cost),fees:round(fees),profit:round(profit),roi:round(roi),feeRate,riskRate,outbound,inbound});
   if(cost>config.maximumPurchase)reasons.push('Coût total supérieur au budget');
   if(profit<config.minimumProfit)reasons.push('Bénéfice inférieur à '+config.minimumProfit+' €');

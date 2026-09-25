@@ -9,5 +9,28 @@ export function alertCandidates(data,config,existingBodies,now=Date.now()) {
 export function alertBody(deal,owner) {
   if(!/^[a-zA-Z0-9-]+$/.test(owner))throw Error('Destinataire GitHub invalide');
   const a=deal.analysis,e=a.evidence;
-  return `${marker(deal.id)}\n@${owner}\n\nUne offre passe les seuils configurés. Vérifier le stock et les conditions avant achat.\n\n**${text(deal.title)}**\n\n- Achat affiché : ${deal.price} €\n- Coût achat + transport : ${a.cost} €\n- Revente / reprise estimée : ${a.resale} €\n- Frais et réserve de risque : ${a.fees} €\n- **Bénéfice estimé : ${a.profit} € ; rendement : ${a.roi} %**\n- Débouché : ${text(a.liquidity)}\n\n[Offre source](${httpsUrl(deal.url)})\n\n[Preuve de revente / reprise](${httpsUrl(e?.url)||'https://github.com/kazeDraughts/flipradar'}) — observée le ${text(e?.observedAt)}\n\n${a.assumptions.map(s=>'- '+text(s)).join('\n')}\n\n[Fiche dans FlipRadar](https://kazedraughts.github.io/flipradar/)`;
+  return `${marker(deal.id)}
+@${owner}
+
+Une offre passe les seuils configurés. Vérifier le stock et les conditions avant achat.
+
+**${text(deal.title)}**
+
+- Achat affiché : ${deal.price} €
+- Coût achat + transport : ${a.cost} €
+- Revente / reprise estimée : ${a.resale} €
+- Frais et réserve de risque : ${a.fees} €
+- **Bénéfice estimé : ${a.profit} € ; rendement : ${a.roi} %**
+- Prix d'achat maximal estimé, hors transport entrant : ${a.maximumPurchasePrice} € (mêmes hypothèses et seuils)
+- Débouché : ${text(a.liquidity)}
+
+[Offre source](${httpsUrl(deal.url)})
+
+[Preuve de revente / reprise](${httpsUrl(e?.url)||'https://github.com/kazeDraughts/flipradar'}) — observée le ${text(e?.observedAt)}
+
+${a.assumptions.map(s=>'- '+text(s)).join('\n')}
+
+[Fiche dans FlipRadar](https://kazedraughts.github.io/flipradar/#deal=${encodeURIComponent(deal.id)})
+
+La fiche du site conserve les recherches récentes ; les détails de cette alerte restent consultables ici si l'offre sort de la veille.`;
 }
