@@ -1,0 +1,66 @@
+name: Recherche, alertes et publication
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['public/data/**', 'README.md']
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_alert:
+        description: Envoyer un test de réception (une seule fois)
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+concurrency:
+  group: flipradar-production
+  cancel-in-progress: false
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - name: Lire les offres et comparer les prix
+        id: scan
+        continue-on-error: true
+        run: npm run scan
+      - name: Vérifier que le résultat est disponible
+        run: node -e "const d=require('./public/data/deals.json'); if(!Array.isArray(d.deals)) process.exit(1)"
+      - name: Envoyer les nouvelles alertes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TEST_ALERT: ${{ inputs.test_alert }}
+        run: node scripts/notify.mjs
+      - name: Conserver les observations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/deals.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualiser les observations FlipRadar'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Publier le site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Signaler une panne de collecte après publication du diagnostic
+        if: steps.scan.outcome == 'failure'
+        run: exit 1
