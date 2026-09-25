@@ -18,19 +18,20 @@ test('real scan pipeline: feeds → automatic matching → profit decision → a
     const config={...base,productMappings:[],sources:[{id:'fixture',name:'Test RSS',type:'dealabs-rss',url:'https://www.dealabs.com/rss'}]};
     writeFileSync(join(sandbox,'config.json'),JSON.stringify(config));
     // Offline synthetic responses only. These files are never published or emailed.
-    const stub=`const price=Number(process.env.FIXTURE_PRICE);const failed=process.env.FIXTURE_FAIL==='true';
+    const stub=`const price=Number(process.env.FIXTURE_PRICE);const failed=process.env.FIXTURE_FAIL==='true';const used=process.env.FIXTURE_USED;
       const title='Samsung Galaxy S25 Ultra Dual SIM 256 Go noir titane';
+      const offerTitle=(used==='unknown'?'Reconditionné : ':used?'Occasion très bon état : ':'')+title;
       const path='/vendre/mobile/samsung-galaxy-s25-ultra-dual-sim-256-go-noir-titane_15586569';
       globalThis.fetch=async url=>{
-        if(String(url)==='https://www.dealabs.com/rss')return new Response('<rss xmlns:pepper="http://www.pepper.com/rss"><channel><item><title>'+title+'</title><link>https://www.dealabs.com/bons-plans/synthetic-test-only</link><pepper:merchant name="Test" price="'+price+'"/><pubDate>'+new Date().toUTCString()+'</pubDate></item></channel></rss>');
+        if(String(url)==='https://www.dealabs.com/rss')return new Response('<rss xmlns:pepper="http://www.pepper.com/rss"><channel><item><title>'+offerTitle+'</title><link>https://www.dealabs.com/bons-plans/synthetic-test-only</link><pepper:merchant name="Test" price="'+price+'"/><description>'+(used==='defect'?'Batterie HS':'')+'</description><pubDate>'+new Date().toUTCString()+'</pubDate></item></channel></rss>');
         if(failed)return new Response('Unavailable',{status:403});
         if(String(url).startsWith('https://www.rebuy.fr/vendre/rechercher?'))return new Response('<a href="'+path+'">'+title+'</a>');
-        if(String(url)==='https://www.rebuy.fr'+path)return new Response('<h1>'+title+'</h1><script id="ry-inject" type="application/json">'+JSON.stringify({locale:'fr',currencyTemplate:'0,00 €',productDetailViewDto:{product:{id:15586569,name:title,allowed_purchase:true,is_purchaseable:true,purchase_stop:false,purchase_a1_price:40000,variants:[{label:'A1',purchasePrice:40000}]}}})+'</script>');
+        if(String(url)==='https://www.rebuy.fr'+path)return new Response('<h1>'+title+'</h1><script id="ry-inject" type="application/json">'+JSON.stringify({locale:'fr',currencyTemplate:'0,00 €',productDetailViewDto:{product:{id:15586569,name:title,allowed_purchase:true,is_purchaseable:true,purchase_stop:false,purchase_a1_price:40000,purchase_a2_price:35000,purchase_a3_price:30000,purchase_a4_price:25000,variants:[{label:'A1',purchasePrice:40000},{label:'A2',purchasePrice:35000},{label:'A3',purchasePrice:30000},{label:'A4',purchasePrice:25000}]}}})+'</script>');
         throw Error('Unexpected network request: '+url);
       };`;
     writeFileSync(join(sandbox,'mock-network.mjs'),stub);
-    function run(price,failed=false){
-      const result=spawnSync(process.execPath,['--import',pathToFileURL(join(sandbox,'mock-network.mjs')).href,join(sandbox,'scripts/scan.mjs')],{cwd:sandbox,encoding:'utf8',timeout:15000,env:{...process.env,FIXTURE_PRICE:String(price),FIXTURE_FAIL:String(failed)}});
+    function run(price,failed=false,used=''){
+      const result=spawnSync(process.execPath,['--import',pathToFileURL(join(sandbox,'mock-network.mjs')).href,join(sandbox,'scripts/scan.mjs')],{cwd:sandbox,encoding:'utf8',timeout:15000,env:{...process.env,FIXTURE_PRICE:String(price),FIXTURE_FAIL:String(failed),FIXTURE_USED:used}});
       assert.ifError(result.error);
       assert.ok([0,3].includes(result.status),result.stderr||result.stdout);
       const data=JSON.parse(readFileSync(join(sandbox,'public/data/deals.json'),'utf8'));
@@ -46,6 +47,17 @@ test('real scan pipeline: feeds → automatic matching → profit decision → a
     assert.equal(expensive.result.status,0);
     assert.equal(expensive.data.deals[0].analysis.status,'unprofitable');
     assert.equal(alertCandidates(expensive.data,config,[]).length,0);
+    const used=run(100,false,'good');
+    assert.equal(used.data.deals[0].condition,'used');
+    assert.equal(used.data.deals[0].analysis.resale,250);
+    assert.equal(used.data.deals[0].analysis.riskRate,15);
+    assert.equal(used.data.deals[0].analysis.profit,94.5);
+    assert.equal(alertCandidates(used.data,config,[]).length,1);
+    for(const condition of ['unknown','defect']){
+      const unsafe=run(100,false,condition);
+      assert.equal(unsafe.data.deals[0].analysis.profit,null);
+      assert.equal(alertCandidates(unsafe.data,config,[]).length,0);
+    }
     const unavailable=run(100,true);
     assert.equal(unavailable.result.status,3);
     assert.equal(unavailable.data.health.state,'comparison_failed');
