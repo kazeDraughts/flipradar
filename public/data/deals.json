@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T19:16:27.173Z",
+  "updatedAt": "2026-10-26T23:09:01.370Z",
   "sources": [
     {
       "id": "dealabs",
@@ -8,7 +8,7 @@
       "url": "https://www.dealabs.com/rss",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "dealabs-phones",
@@ -16,7 +16,7 @@
       "url": "https://www.dealabs.com/rss/groupe/telephonie",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "dealabs-gaming",
@@ -24,7 +24,7 @@
       "url": "https://www.dealabs.com/rss/groupe/consoles-jeux-video",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "dealabs-tech",
@@ -32,7 +32,7 @@
       "url": "https://www.dealabs.com/rss/groupe/high-tech",
       "status": "ok",
       "count": 30,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "sony-wh1000xm5-black",
@@ -40,7 +40,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "nintendo-switch-oled-white",
@@ -48,7 +48,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "apple-airpods-pro2-usbc",
@@ -56,7 +56,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "sony-ps5-slim-1tb-disc-cfi2016",
@@ -64,7 +64,7 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "sony-dualsense-white-standard",
@@ -72,7 +72,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Blanc/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Blanc%20PS5?id=004487175&grade=B",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     },
     {
       "id": "sony-dualsense-blue-standard",
@@ -80,7 +80,7 @@
       "url": "https://prix.easycash.fr/vendez/fiche-produit/Acc.%20de%20jeux%20vid%C3%A9o/PlayStation%205%20%28PS5%29/Manette/OUI/Bleu/Acc.%20de%20jeux%20vid%C3%A9o%20SONY%20Manette%20Sans%20Fil%20DualSense%20Bleu%20PS5?grade=B&id=005116764",
       "status": "error",
       "error": "HTTP 403",
-      "checkedAt": "2026-10-26T19:16:27.173Z"
+      "checkedAt": "2026-10-26T23:09:01.370Z"
     }
   ],
   "referencePrices": [
@@ -101,7 +101,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/sony-wh-1000xm5-noir_12553215",
       "title": "Sony WH-1000XM5 noir",
       "titleVerified": true,
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -126,7 +126,7 @@
       "url": "https://www.rebuy.fr/vendre/nintendo-switch/nintendo-switch-oled-64-go-incl-une-manette-blanc-et-blanc-blanc_12261899",
       "title": "Nintendo Switch OLED 64 Go [incl. une manette blanc et blanc] blanc",
       "titleVerified": true,
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -151,7 +151,7 @@
       "url": "https://www.rebuy.fr/vendre/casques-et-ecouteurs/apple-airpods-pro-2-avec-boitier-magsafe-usb-c-blanc_15189654",
       "title": "Apple AirPods Pro 2 [avec boitier MagSafe USB-C] blanc",
       "titleVerified": true,
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -176,7 +176,7 @@
       "url": "https://www.rebuy.fr/vendre/playstation-5/sony-playstation-5-slim-1-to-edition-disque-incl-manette-sans-fil-dualsense-blanc_15358283",
       "title": "Sony PlayStation 5 slim 1 To [Édition disque incl. manette sans fil DualSense] blanc",
       "titleVerified": true,
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "freeShipping": false,
       "assumptions": [
         "Tarif de rachat public, paiement en argent hors coupons et bons d’achat. Pour le neuf, scénario A1 ; pour l’occasion admissible, scénario A4. Le questionnaire final et le contrôle du produit peuvent modifier ce montant.",
@@ -189,14 +189,14 @@
   "excludedCount": 45,
   "deals": [
     {
-      "id": "6faa7917b9941388fbe5",
-      "title": "Football Manager 2027 sur PC via Steam",
-      "url": "https://www.dealabs.com/bons-plans/football-manager-2027-sur-pc-via-steam-3439473",
-      "source": "Dealabs · consoles et jeux vidéo",
-      "sourceId": "dealabs-gaming",
-      "merchant": "À vérifier",
-      "category": "Consoles & Jeux vidéo",
-      "price": 32.58,
+      "id": "bbdb92d4b3f39765b645",
+      "title": "Jouet Lego Technic 42232 Megacar Sadair's Spear de Koenigsegg - 4104 pièces",
+      "url": "https://www.dealabs.com/bons-plans/42232-lego-technic-megacar-sadairs-spear-de-koenigsegg-3439603",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "King Jouet",
+      "category": "Famille & Enfants",
+      "price": 323.99,
       "currency": "EUR",
       "country": "FR",
       "condition": "new",
@@ -205,10 +205,10 @@
       "conditionWarnings": [],
       "shipping": null,
       "conditionalPrice": null,
-      "publishedAt": "2026-10-26T19:15:56.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "publishedAt": "2026-10-26T22:41:14.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
-      "firstSeen": "2026-10-26T19:16:27.173Z",
+      "firstSeen": "2026-10-26T23:09:01.370Z",
       "stale": false,
       "exclusions": [],
       "discovery": {
@@ -236,6 +236,1508 @@
       }
     },
     {
+      "id": "aa498e884f2e5df62b44",
+      "title": "Câble HDMI Silkland 2.1 8K 2M 4K@240Hz, eARC HDR10+, 48Gbps (Vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/cable-silkland-hdmi-21-8k-2m-4k-at-240hz-earc-hdr10-48gbps-haute-vitesse-3439602",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 6.27,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T22:24:30.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "230df3af841aabded2e7",
+      "title": "Gaufrier Bestron - Argent",
+      "url": "https://www.dealabs.com/bons-plans/bestron-gaufrier-pour-gaufres-belges-3439601",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Maison & Habitat",
+      "price": 24.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T22:15:41.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "5fad2523bce8ca29c2f6",
+      "title": "Antivol de volant intégral Disklok Édition Jaune - Taille Medium 39 à 41,5 cm",
+      "url": "https://www.dealabs.com/bons-plans/antivol-de-volant-integral-disklok-edition-jaune-taille-medium-39-a-415-cm-3439597",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Auto-Moto",
+      "price": 140,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T22:07:03.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "2a101de4eee1f713c568",
+      "title": "Jouet Lego Technic 42172 McLaren P1",
+      "url": "https://www.dealabs.com/bons-plans/lego-technic-42172-mclaren-p1-3439596",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Cdiscount",
+      "category": "Culture & Divertissement",
+      "price": 291.23,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T22:06:08.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "2fc0736558f8aeb274ca",
+      "title": "Jouet Lego Technic 42232 Megacar Sadair's Spear de Koenigsegg (4104 pièces)",
+      "url": "https://www.dealabs.com/bons-plans/lego-technic-42232-megacar-sadairs-spear-de-koenigsegg-3439593",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Cdiscount",
+      "category": "Famille & Enfants",
+      "price": 339.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:52:44.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "769a2cf2e89d2259504a",
+      "title": "Short chino Jack & Jones",
+      "url": "https://www.dealabs.com/bons-plans/short-chino-jack-jones-3439591",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Mode & Accessoires",
+      "price": 7.71,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:48:42.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "f64b28ae35c0b9bc4e5a",
+      "title": "Table d'ordinateur pour bureau Joyfurnos - 50 x 80 x 75,5 cm",
+      "url": "https://www.dealabs.com/bons-plans/table-dordinateur-pour-bureau-a-domicile-chambre-cabinet-de-travail-marron-et-noir-bureau-joyfurnos-3439589",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "JoyBuy",
+      "category": "Maison & Habitat",
+      "price": 15.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:47:24.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "f14b8acfe10043f3575a",
+      "title": "Montre Automatique Orient RA-AA0E08Y39B Revival World Map Limitée 75th - 44mm 20ATM",
+      "url": "https://www.dealabs.com/bons-plans/orient-ra-aa0e08y39b-montre-homme-revival-world-map-limitee-75th-automatique-44mm-20atm-3439588",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Timeshop24",
+      "category": "Mode & Accessoires",
+      "price": 368.6,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:46:29.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "87dc1148fc6f42008650",
+      "title": "Chaussures de trail homme Asics Trabuco Terra 3 - Beige et noir",
+      "url": "https://www.dealabs.com/bons-plans/chaussures-de-trail-homme-trabuco-terra-3-beige-et-noir-3439585",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Intersport",
+      "category": "Sports & Plein air",
+      "price": 89.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:45:28.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "0c622e9a24dfb574703e",
+      "title": "Montre Quartz Lacoste Lc33",
+      "url": "https://www.dealabs.com/bons-plans/montre-lacoste-lc33-3439582",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Mode & Accessoires",
+      "price": 49.5,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:43:59.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "dfbc383e5551c9870196",
+      "title": "Iconoclasts sur Nintendo Switch (dematierialisé)",
+      "url": "https://www.dealabs.com/bons-plans/iconoclasts-sur-nintendo-switch-dematierialise-3439581",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "Nintendo",
+      "category": "Consoles & Jeux vidéo",
+      "price": 3.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:41:53.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "7a38f33c2c840add366a",
+      "title": "Montre Orient Star RE-AU0401S00B",
+      "url": "https://www.dealabs.com/bons-plans/orient-star-re-au0401s00b-3439579",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Timeshop24",
+      "category": "Mode & Accessoires",
+      "price": 495,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:37:49.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "621fed534413dd40e5e8",
+      "title": "Robot multifonction Moulinex DoubleForce Compact FP544111 - 800 W, bol 2,2 L, 7 accessoires",
+      "url": "https://www.dealabs.com/bons-plans/robot-multifonction-moulinex-doubleforce-compact-fp544111-800-w-bol-22-l-7-accessoires-3439575",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "E.Leclerc",
+      "category": "Maison & Habitat",
+      "price": 64.89,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:31:16.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "933772dc32009cb4e95c",
+      "title": "Mini véhicule Nintendo Mario Kart Jakks Pacific - Dès 3 ans (figurine aléatoire parmi les 4)",
+      "url": "https://www.dealabs.com/bons-plans/jakks-pacific-mini-vehicule-nintendo-mario-kart-3439554",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Famille & Enfants",
+      "price": 6.6,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:24:54.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "635bf27ce4ce843bf717",
+      "title": "Guitare Électrique Moderne Sans Tête Donner HLX-500",
+      "url": "https://www.dealabs.com/bons-plans/guitare-electrique-moderne-sans-tete-donner-hlx-500-3439571",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Donner Music",
+      "category": "Culture & Divertissement",
+      "price": 279,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:19:14.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "093b8f57d1970afaabcb",
+      "title": "Lego Creator 3-en-1 31165 Animaux Sauvages : La Famille de Pandas",
+      "url": "https://www.dealabs.com/bons-plans/lego-creator-3-en-1-animaux-sauvages-la-famille-de-pandas-31165-3431571",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon",
+      "category": "Famille & Enfants",
+      "price": 20.92,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:16:09.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "ed5e4f3b93771fd2ddb2",
+      "title": "Smartphone 6.99\" Redmi Note 17 - 128 Go, 4Go de Ram, Violet, Batterie 7700 mAh",
+      "url": "https://www.dealabs.com/bons-plans/redmi-note-17-smartphone-4128-go-violet-batterie-7700-mah-3439570",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 199,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:15:20.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "a4aa02d76b22d1b7187c",
+      "title": "[Lidl+] Jeu de douilles à choc 1/4 pouce Parkside Performance - 21 pièces (via coupon)",
+      "url": "https://www.dealabs.com/bons-plans/lidl-jeu-de-douilles-a-choc-14-pouce-parkside-performance-21-pieces-via-coupon-3439569",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Lidl",
+      "category": "Jardin & Bricolage",
+      "price": 10.39,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:15:01.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "9483bf01a30b7dd12e56",
+      "title": "Jouet Playmobil 71530 Bateau Pirates",
+      "url": "https://www.dealabs.com/bons-plans/playmobil-71530-bateau-pirates-3439568",
+      "source": "Dealabs · toutes les offres",
+      "sourceId": "dealabs",
+      "merchant": "Amazon.es",
+      "category": "Famille & Enfants",
+      "price": 59.5,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:14:40.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "f342ed7b87ce8174020a",
+      "title": "PC Portable 14\" Lenovo ThinkPad E14 Gen 5-14 - Intel Core i5-1335U, 16 Go RAM, 512 Go SSD, Win 11 Pro",
+      "url": "https://www.dealabs.com/bons-plans/lenovo-thinkpad-e14-gen-5-14-3439567",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 899.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:10:30.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "ee68777956e50911018d",
+      "title": "Processeur AMD Ryzen 7 5700X",
+      "url": "https://www.dealabs.com/bons-plans/processeur-ryzen-7-5700x-3439564",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "AliExpress",
+      "category": "High-Tech",
+      "price": 141.13,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T21:04:21.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "3795ecf3d81699d9755f",
+      "title": "Webcam Ugreen - Full HD, 1080P, 30FPS, Caméra USB (Vendeur Tiers)",
+      "url": "https://www.dealabs.com/bons-plans/ugreen-webcam-full-hd-1080p-30fps-camera-usb-pc-mise-au-point-fixe-3439560",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 19.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:58:34.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "3d73d427ea8df835e5e3",
+      "title": "SSD 2.5\" Fanxiang S101Q - 480 Go, SATA III 6Go/s (vendeur tiers)",
+      "url": "https://www.dealabs.com/bons-plans/disque-dur-fanxiang-s101q-480-go-ssd-25-sata-iii-6gos-vendeur-tiers-3439555",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 63.64,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:54:56.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "9fdde8d440211ed64feb",
+      "title": "Parafoudre Belkin 6 prises parafoudres + câble 2m",
+      "url": "https://www.dealabs.com/bons-plans/parafoudre-belkin-6-prises-parafoudres-cable-2m-3439537",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Boulanger",
+      "category": "High-Tech",
+      "price": 17.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:31:47.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "bbba48d777b0b3fd35ab",
+      "title": "Écran PC 27\" Asus Rog Strix XG27ACMEG (2560x1440) - 260Hz",
+      "url": "https://www.dealabs.com/bons-plans/ecran-pc-27-asus-rog-strix-xg27acmeg-27-2560x1440-260hz-3439529",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "E.Leclerc",
+      "category": "High-Tech",
+      "price": 289,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:26:38.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "be195f15a7bc10dd48c0",
+      "title": "The Rogue Prince of Persia Immortal Edition sur PS5",
+      "url": "https://www.dealabs.com/bons-plans/the-rogue-prince-of-persia-immortal-edition-sur-ps5-3439522",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "Cdiscount",
+      "category": "Consoles & Jeux vidéo",
+      "price": 29.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:15:28.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "5b76413ad8b879d27571",
+      "title": "Lords of The Fallen sur PS5",
+      "url": "https://www.dealabs.com/bons-plans/lords-of-the-fallen-ps5-3439520",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "Amazon.es",
+      "category": "Consoles & Jeux vidéo",
+      "price": 12.96,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:13:59.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "6a0ee11c0fefeecc03e2",
+      "title": "Écran PC 27\" AOC 27G50F - Full HD, 180 Hz, IPS, 0,5 ms, HDR10 Adaptive Sync",
+      "url": "https://www.dealabs.com/bons-plans/ecran-pc-27-gamer-aoc-27g50f-full-hd-180-hz-ips-05-ms-hdr10-adaptive-sync-3439513",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Cdiscount",
+      "category": "High-Tech",
+      "price": 87.86,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T20:05:41.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "915e5eb8c6840b23253b",
+      "title": "Montre connectée Oppo Watch X3 - 47 mm titane , verre saphire AMOLED, GPS/NFC (Vendeur Tiers)",
+      "url": "https://www.dealabs.com/bons-plans/montre-conectee-oppo-watch-x3-47-mm-titane-verre-saphire-amoled-gpsnfc-vendeur-tiers-3439501",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Cdiscount",
+      "category": "High-Tech",
+      "price": 219,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T19:54:49.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "72dd0c6322f3bf4c3cdf",
+      "title": "Écouteurs de traduction HTC NE20",
+      "url": "https://www.dealabs.com/bons-plans/ecouteurs-de-traduction-htc-ne20-a-1589eur-au-lieu-de-4999eur-68-3439498",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "JoyBuy",
+      "category": "High-Tech",
+      "price": 15.89,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T19:48:26.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "9bba58dd67e35d706158",
+      "title": "Écouteurs Bluetooth Sans Fil Ugreen Clipbuds Oreillette Ouverte ENC 30H (Vendeur Tiers)",
+      "url": "https://www.dealabs.com/bons-plans/ugreen-clipbuds-ecouteurs-bluetooth-sans-fil-oreillette-ouverte-enc-30h-3439485",
+      "source": "Dealabs · high-tech",
+      "sourceId": "dealabs-tech",
+      "merchant": "Amazon",
+      "category": "High-Tech",
+      "price": 20.99,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T19:30:32.000Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T23:09:01.370Z",
+      "stale": false,
+      "exclusions": [],
+      "discovery": {
+        "status": "unsupported",
+        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+      },
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Aucun prix de reprise ni historique de ventes comparable disponible",
+          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
+      "id": "6faa7917b9941388fbe5",
+      "title": "Football Manager 2027 sur PC via Steam",
+      "url": "https://www.dealabs.com/bons-plans/football-manager-2027-sur-pc-via-steam-3439473",
+      "source": "Dealabs · consoles et jeux vidéo",
+      "sourceId": "dealabs-gaming",
+      "merchant": "À vérifier",
+      "category": "Consoles & Jeux vidéo",
+      "price": 32.58,
+      "currency": "EUR",
+      "country": "FR",
+      "condition": "new",
+      "conditionGrade": "new",
+      "conditionLabel": "Neuf présumé",
+      "conditionWarnings": [],
+      "shipping": null,
+      "conditionalPrice": null,
+      "publishedAt": "2026-10-26T19:15:56.000Z",
+      "observedAt": "2026-10-26T19:16:27.173Z",
+      "productKey": null,
+      "firstSeen": "2026-10-26T19:16:27.173Z",
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
+      "analysis": {
+        "status": "unverified",
+        "qualified": false,
+        "comparisonVerified": false,
+        "resale": null,
+        "cost": null,
+        "fees": null,
+        "profit": null,
+        "roi": null,
+        "maximumPurchasePrice": null,
+        "score": null,
+        "liquidity": "Non mesurée",
+        "reasons": [
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
+        ],
+        "evidence": null,
+        "assumptions": []
+      }
+    },
+    {
       "id": "df05a6a145425bdef765",
       "title": "Batterie externe Ugreen Nexode Pro - 200W, 25000 mAh, puissance combinée de 200W, 140W sur sortie unique - trois ports : 2 USB-C et 1 USB-A",
       "url": "https://www.dealabs.com/bons-plans/batterie-externe-ugreen-nexode-pro-200w-25000-mah-puissance-combinee-de-200w-140w-sur-sortie-unique-trois-ports-2-usb-c-et-1-usb-a-3439458",
@@ -253,7 +1755,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T19:10:38.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -303,12 +1805,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -322,8 +1822,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -350,12 +1850,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -369,8 +1867,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -397,12 +1895,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -416,8 +1912,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -444,12 +1940,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -463,8 +1957,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -491,12 +1985,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -510,8 +2002,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -538,12 +2030,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -557,8 +2047,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -582,7 +2072,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:50:06.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -632,12 +2122,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -651,8 +2139,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -679,12 +2167,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -698,8 +2184,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -726,12 +2212,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -745,8 +2229,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -773,12 +2257,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -792,8 +2274,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -817,7 +2299,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:35:09.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -867,12 +2349,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -886,8 +2366,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -911,7 +2391,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:30:25.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -961,12 +2441,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -980,8 +2458,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1008,12 +2486,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1027,8 +2503,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1055,12 +2531,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1074,8 +2548,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1102,12 +2576,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1121,8 +2593,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1149,12 +2621,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1168,8 +2638,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1193,7 +2663,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:25:07.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1240,7 +2710,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:14:51.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1287,7 +2757,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:14:08.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1334,7 +2804,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:12:20.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1381,7 +2851,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T18:03:40.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1428,7 +2898,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T17:52:34.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1475,7 +2945,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T17:48:04.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1522,7 +2992,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T17:36:31.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1569,7 +3039,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T17:26:47.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1616,7 +3086,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T17:05:53.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1663,7 +3133,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T16:56:57.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1710,7 +3180,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T16:56:15.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1757,7 +3227,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T16:49:23.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1804,7 +3274,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T16:47:01.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1851,7 +3321,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T16:36:48.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -1901,12 +3371,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1920,8 +3388,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1948,12 +3416,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -1967,8 +3433,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -1995,12 +3461,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2014,8 +3478,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2042,12 +3506,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2061,8 +3523,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2089,12 +3551,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2108,8 +3568,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2133,7 +3593,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T16:00:09.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": "sony-dualsense-white-standard",
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -2183,12 +3643,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2202,8 +3660,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2230,12 +3688,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2249,8 +3705,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2277,12 +3733,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2296,8 +3750,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2324,12 +3778,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2343,8 +3795,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2371,12 +3823,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2390,8 +3840,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2418,12 +3868,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2437,8 +3885,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2465,12 +3913,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2484,8 +3930,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -2692,12 +4138,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T12:56:25.280Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -2711,8 +4155,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -3996,7 +5440,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T11:15:06.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T12:56:25.280Z",
       "stale": false,
@@ -9152,7 +10596,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-25T16:37:22.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-25T19:02:44.375Z",
       "stale": false,
@@ -13162,7 +14606,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T21:46:26.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T23:10:51.094Z",
       "stale": false,
@@ -13974,7 +15418,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T20:27:21.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T20:45:53.764Z",
       "stale": false,
@@ -15191,7 +16635,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T17:45:05.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T18:06:59.729Z",
       "stale": false,
@@ -15373,7 +16817,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T17:27:43.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T18:06:59.729Z",
       "stale": false,
@@ -16410,7 +17854,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T15:10:58.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T18:06:59.729Z",
       "stale": false,
@@ -16502,7 +17946,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T15:01:45.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T18:06:59.729Z",
       "stale": false,
@@ -17494,7 +18938,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T13:41:07.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T14:30:03.773Z",
       "stale": false,
@@ -18351,7 +19795,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T10:41:26.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T10:54:50.124Z",
       "stale": false,
@@ -19256,7 +20700,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T07:18:31.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T10:54:50.124Z",
       "stale": false,
@@ -19981,7 +21425,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T05:16:28.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T05:49:18.105Z",
       "stale": false,
@@ -20073,7 +21517,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T05:13:14.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T05:49:18.105Z",
       "stale": false,
@@ -20643,1493 +22087,6 @@
       }
     },
     {
-      "id": "07e11dd8e0519632520f",
-      "title": "Machine à expresso De’Longhi Dedica Style (685)",
-      "url": "https://www.dealabs.com/bons-plans/delonghi-dedica-style-685-3437698",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Coffee Friend",
-      "category": "Maison & Habitat",
-      "price": 129,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T23:00:33.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "b8494e0b507ff0120f26",
-      "title": "Appareil à raclette Bestron avec 2 poêlons et 2 spatules, avec revêtement antiadhésif, 350 Watts",
-      "url": "https://www.dealabs.com/bons-plans/bestron-appareil-a-raclette-mini-grill-pour-1-a-2-personnes-avec-2-poelons-et-2-spatules-avec-revetement-antiadhesif-350-watts-3437694",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Maison & Habitat",
-      "price": 12.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:55:42.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "db94079bef642c6acb30",
-      "title": "Poêle Tefal Duetto On - Base épaisse - 20cm - Inox",
-      "url": "https://www.dealabs.com/bons-plans/tefal-duetto-on-poele-de-qualite-superieure-base-epaisse-20cm-inox-3437693",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Maison & Habitat",
-      "price": 22.9,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:55:08.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "01a7a3f0a8506858ee4d",
-      "title": "Chaussure running homme Asics Gel Pulse 17 noir et vert",
-      "url": "https://www.dealabs.com/bons-plans/chaussure-running-homme-asics-gel-pulse-17-noir-et-vert-3437692",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Decathlon",
-      "category": "Sports & Plein air",
-      "price": 59.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:53:26.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "9e42d15c6a7000f0905b",
-      "title": "Bottillons Timberland Euro Sprint en Cuir - Tailles 20, 20.5 et 22",
-      "url": "https://www.dealabs.com/bons-plans/bottillons-timberland-euro-sprint-en-cuir-tailles-20-205-et-22-3437691",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Veepee",
-      "category": "Mode & Accessoires",
-      "price": 16.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:41:39.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "2e564d131432a56547f2",
-      "title": "Tablette Xiaomi Pad 8 Pro 8GO RAM 256 GB SSD + Focus pen + Pro Focus Keyboard",
-      "url": "https://www.dealabs.com/bons-plans/xiaomi-pad-8-pro-8go-ram-256-gb-ssd-focus-pen-pro-focus-keyboard-3437690",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Xiaomi",
-      "category": "High-Tech",
-      "price": 526,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:41:26.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "94319fdc19d4ed6c3c69",
-      "title": "Jeu de construction Lego Jurassic World Les fossiles de dinosaure : le tricératops - 77985 (via 20,00 € de fidélité)",
-      "url": "https://www.dealabs.com/bons-plans/les-fossiles-de-dinosaure-le-triceratops-lego-jurassic-world-77985-via-2000-eur-de-fidelite-3437688",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Auchan",
-      "category": "Famille & Enfants",
-      "price": 59.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:31:11.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "1e6e544e1711024e1788",
-      "title": "Sneakers femme New Balance 237 - Nimbus Cloud White Moonbeam Nn",
-      "url": "https://www.dealabs.com/bons-plans/sneaker-new-balance-237-femme-nimbus-cloud-white-moonbeam-nn-3437682",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Mode & Accessoires",
-      "price": 42,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T22:08:28.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-24T00:39:31.496Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "a9f52181ad834ca1fd5f",
-      "title": "Jeu de construction Lego Disney 43249 Stitch",
-      "url": "https://www.dealabs.com/bons-plans/lego-disney-43249-stitch-3437680",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "JoyBuy",
-      "category": "Famille & Enfants",
-      "price": 36.5,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:56:20.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "40617faba464ef036486",
-      "title": "Coffret Blu-ray Les Tortues Ninja - La Trilogie originale",
-      "url": "https://www.dealabs.com/bons-plans/les-tortues-ninja-la-trilogie-originale-3437678",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "E.Leclerc",
-      "category": "Culture & Divertissement",
-      "price": 51.78,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:51:37.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "9b01fdfafff32d94a5c9",
-      "title": "Kirby et le monde oublié sur Nintendo Switch 2",
-      "url": "https://www.dealabs.com/bons-plans/kirby-et-le-monde-oublie-nintendo-switch-2-3437677",
-      "source": "Dealabs · consoles et jeux vidéo",
-      "sourceId": "dealabs-gaming",
-      "merchant": "Amazon",
-      "category": "Consoles & Jeux vidéo",
-      "price": 56,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:47:57.000Z",
-      "observedAt": "2026-10-24T14:30:03.773Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "ee841c7511ce41b5ad65",
-      "title": "Mocassins homme en suédine marron – Tailles disponibles du 40 au 46",
-      "url": "https://www.dealabs.com/bons-plans/mocassins-homme-en-suedine-marron-tailles-disponibles-du-40-au-46-3437675",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Kiabi",
-      "category": "Mode & Accessoires",
-      "price": 12.5,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:41:36.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "ef2a0be2783c1ac5a931",
-      "title": "Trottinette électrique Ausom K20 Pro Dual (ausomstore.com)",
-      "url": "https://www.dealabs.com/bons-plans/ausom-k20-pro-dual-trottinette-electrique-3437673",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "À vérifier",
-      "category": "Sports & Plein air",
-      "price": 563.06,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:33:14.000Z",
-      "observedAt": "2026-10-24T00:39:31.496Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "2bb6bed637760b7b25ea",
-      "title": "Câble ethernet Digoloan en nylon Cat 8, RJ45 - 1m (vendeur tiers)",
-      "url": "https://www.dealabs.com/bons-plans/cable-ethernet-en-nylon-cat-8-rj45-1m-digoloan-via-coupon-3437672",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Amazon",
-      "category": "High-Tech",
-      "price": 4.79,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:24:00.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "8372a38abf1adc4a14bd",
-      "title": "Micro-casque sans fil Steelseries Arctis Nova Pro Omni",
-      "url": "https://www.dealabs.com/bons-plans/steelseries-arctis-nova-pro-omni-3-couleurs-au-choix-3437669",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "SteelSeries",
-      "category": "High-Tech",
-      "price": 339.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:20:46.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "e4696414b8a2dac9c4e2",
-      "title": "Tablette 11\" Xiaomi Redmi Pad 2 Play Bundle - 128 Go, 90 Hz, Mate Glass Version, Pencil Stylus, anti lumière bleue, 9000 mAh",
-      "url": "https://www.dealabs.com/bons-plans/tablette-11-25-k-xiaomi-redmi-pad-2-play-bundle-128-go-90-hz-mate-glass-version-pencil-stylus-anti-lumiere-bleue-9000-mah-3437666",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Amazon",
-      "category": "High-Tech",
-      "price": 172.9,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:16:44.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "8256df2c1bf23c85650e",
-      "title": "Bague de réduction pour lame de scie circulaire Bosch PRO Reduction Ring",
-      "url": "https://www.dealabs.com/bons-plans/bague-de-reduction-pour-lame-de-scie-circulaire-bosch-pro-reduction-ring-3437664",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Jardin & Bricolage",
-      "price": 6.05,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T21:04:55.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "ab757878bd01bc22aa0f",
-      "title": "Pistolet à souder le plastique sans fil Parkside 12V Pkspa 12 A1 - Batterie 2000 mAh",
-      "url": "https://www.dealabs.com/bons-plans/pistolet-a-souder-le-plastique-sans-fil-parkside-12v-pkspa-12-a1-batterie-2000-mah-3437663",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Lidl",
-      "category": "Jardin & Bricolage",
-      "price": 19.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:57:32.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "031f4e70293b4fb8d2c7",
-      "title": "15€ de réduction dès 80€ d'achat",
-      "url": "https://www.dealabs.com/codes-promo/love-days-du-23-au-25-octobre-2026-15eur-de-remise-des-80-eur-dachat-offre-valable-en-magasins-et-sur-le-site-web-3437660",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Besson",
-      "category": "Mode & Accessoires",
-      "price": 15,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:47:06.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "ea14984c5991288aa445",
-      "title": "40 Signets Post-it Index Onglets Résistants - 15,8 x 38,1 mm (via Prévoyez et Économisez)",
-      "url": "https://www.dealabs.com/bons-plans/post-it-index-onglets-resistants-40-signets-158-x-381-mm-lot-couleurs-via-prevoyez-et-economisez-3437659",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Maison & Habitat",
-      "price": 1.89,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:46:58.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "f6d8879bf5f53987e4e4",
-      "title": "8 Surligneurs Stabilo swing cool - fluo assortis",
-      "url": "https://www.dealabs.com/bons-plans/stabilo-swing-cool-surligneur-pochette-x-8-surligneurs-fluo-assortis-3437658",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Famille & Enfants",
-      "price": 6,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:44:56.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "f6de4e5738f3b489a084",
-      "title": "Multiprise Parafoudre Belkin - 6 prises, 650 Joules, cordon 2 m Blanc",
-      "url": "https://www.dealabs.com/bons-plans/belkin-parafoudre-6-prises-650-joules-cordon-2-m-blanc-3437657",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Maison & Habitat",
-      "price": 17.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:44:40.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "691ed6ccb147ec02c16f",
-      "title": "Ecran PC 27\" Acer Nitro XF273UF3BMIIPRX - 320Hz 2K WQHD",
-      "url": "https://www.dealabs.com/bons-plans/ecran-pc-acer-gaming-nitro-xf273uf3bmiiprx-27-320hz-2k-wqhd-3437655",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Cdiscount",
-      "category": "High-Tech",
-      "price": 199.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:43:18.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "393fecda8afe810a775f",
-      "title": "Rouleau de 15 sacs poubelle Handy Bag - Poignées coulissantes, 30L (via prévoyez et économisez)",
-      "url": "https://www.dealabs.com/bons-plans/rouleau-de-15-sacs-poubelle-handy-bag-poignees-coulissantes-30l-via-prevoyez-et-economisez-3437654",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Amazon",
-      "category": "Maison & Habitat",
-      "price": 2.03,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:42:25.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "84394ce88d577e70c077",
-      "title": "Imprimante 3D Flashforge AD5X - Impression multicolore 4 couleurs, 600 mm/s",
-      "url": "https://www.dealabs.com/bons-plans/imprimante-3d-flashforge-ad5x-impression-multicolore-4-couleurs-600-mms-3437652",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "JoyBuy",
-      "category": "High-Tech",
-      "price": 246.05,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:39:34.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "f2c0d40c8a79ac77484c",
-      "title": "SSD interne M.2 NVMe Corsair MP600 Core XT - 1 To",
-      "url": "https://www.dealabs.com/bons-plans/corsair-mp600-core-xt-1to-m2-pcie-gen4-nvme-ssd-3437651",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Amazon",
-      "category": "High-Tech",
-      "price": 219.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:39:33.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "221097762c2ad3dd42df",
-      "title": "Chaussures de running femme Asics Novablast 6 GTX - sans stabilisateurs, lilas, noir du 37 au 43.5",
-      "url": "https://www.dealabs.com/bons-plans/asics-novablast-6-gtx-chaussure-de-running-sans-stabilisateurs-femmes-lilas-noir-du-37-au-435-3437650",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Running Point",
-      "category": "Sports & Plein air",
-      "price": 118.95,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:37:48.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "721f2cfa135f6193411d",
-      "title": "Voiture radiocommandée Tamiya Sand Viper (DT02)",
-      "url": "https://www.dealabs.com/bons-plans/tamiya-sand-viper-dt02-3437649",
-      "source": "Dealabs · toutes les offres",
-      "sourceId": "dealabs",
-      "merchant": "Modellbau Berlinski",
-      "category": "Culture & Divertissement",
-      "price": 190.54,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:36:30.000Z",
-      "observedAt": "2026-10-23T22:07:47.202Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "c7d0a1211e2171ba4b56",
-      "title": "Enceinte Portable JBL Flip 7",
-      "url": "https://www.dealabs.com/bons-plans/enceinte-portable-jbl-flip-7-3437629",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "JoyBuy",
-      "category": "High-Tech",
-      "price": 94,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T20:01:36.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "8df093c95b354841d9f8",
-      "title": "Persona 5 Tactica sur PS5 (Sélection de villes)",
-      "url": "https://www.dealabs.com/bons-plans/persona-5-tactica-sur-ps5-3437625",
-      "source": "Dealabs · consoles et jeux vidéo",
-      "sourceId": "dealabs-gaming",
-      "merchant": "Auchan",
-      "category": "Consoles & Jeux vidéo",
-      "price": 10,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T19:56:21.000Z",
-      "observedAt": "2026-10-24T14:30:03.773Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "f7ee0ce7d22ddc537cd0",
-      "title": "Support Manette et Porte Telephone Cableguys - Ghost de Call of Duty",
-      "url": "https://www.dealabs.com/bons-plans/support-manette-et-porte-telephone-cableguys-ghost-de-call-of-duty-3437618",
-      "source": "Dealabs · téléphonie",
-      "sourceId": "dealabs-phones",
-      "merchant": "Amazon",
-      "category": "Consoles & Jeux vidéo",
-      "price": 24.76,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T19:45:46.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "260380de18ad36289cd5",
-      "title": "Ecouteurs sans fil Apple AirPods 4 (MXP63ZM/A) - Carrefour l'Isle-Adam (95)",
-      "url": "https://www.dealabs.com/bons-plans/ecouteurs-airpods-4-mxp63zma-apple-3437612",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Carrefour",
-      "category": "High-Tech",
-      "price": 110.49,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T19:33:31.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
-      "id": "f60a5707be3bb9367ab0",
-      "title": "Traceur GPS PAJ Mini 4G pour Voitures, Motos Suivi temps réel via app, Connexion directe (Vendeur TIers)",
-      "url": "https://www.dealabs.com/bons-plans/traceur-gps-paj-mini-4g-pour-voitures-motossuivi-temps-reel-via-app-connexion-directe-3437605",
-      "source": "Dealabs · high-tech",
-      "sourceId": "dealabs-tech",
-      "merchant": "Amazon",
-      "category": "High-Tech",
-      "price": 37.99,
-      "currency": "EUR",
-      "country": "FR",
-      "condition": "new",
-      "conditionGrade": "new",
-      "conditionLabel": "Neuf présumé",
-      "conditionWarnings": [],
-      "shipping": null,
-      "conditionalPrice": null,
-      "publishedAt": "2026-10-23T19:19:11.000Z",
-      "observedAt": "2026-10-24T05:49:18.105Z",
-      "productKey": null,
-      "firstSeen": "2026-10-23T22:07:47.202Z",
-      "stale": true,
-      "exclusions": [
-        "Offre absente du dernier flux : prix et disponibilité à revérifier"
-      ],
-      "analysis": {
-        "status": "unverified",
-        "qualified": false,
-        "comparisonVerified": false,
-        "resale": null,
-        "cost": null,
-        "fees": null,
-        "profit": null,
-        "roi": null,
-        "maximumPurchasePrice": null,
-        "score": null,
-        "liquidity": "Non mesurée",
-        "reasons": [
-          "Offre absente du dernier flux : prix et disponibilité à revérifier",
-          "Aucun prix de reprise ni historique de ventes comparable disponible"
-        ],
-        "evidence": null,
-        "assumptions": []
-      }
-    },
-    {
       "id": "f0b52d10c15c051e810d",
       "title": "Reconditionné: Console Sony PS5 Numérique",
       "url": "https://www.dealabs.com/bons-plans/playstation-5-reconditionnee-3439286",
@@ -22150,12 +22107,10 @@
       "observedAt": "2026-10-26T19:16:27.173Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
-      "stale": false,
-      "exclusions": [],
-      "discovery": {
-        "status": "unsupported",
-        "reason": "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
-      },
+      "stale": true,
+      "exclusions": [
+        "Offre absente du dernier flux : prix et disponibilité à revérifier"
+      ],
       "analysis": {
         "status": "unverified",
         "qualified": false,
@@ -22169,8 +22124,8 @@
         "score": null,
         "liquidity": "Non mesurée",
         "reasons": [
-          "Aucun prix de reprise ni historique de ventes comparable disponible",
-          "Modèle, capacité ou couleur insuffisamment précis, ou famille de produit non encore reconnue automatiquement."
+          "Offre absente du dernier flux : prix et disponibilité à revérifier",
+          "Aucun prix de reprise ni historique de ventes comparable disponible"
         ],
         "evidence": null,
         "assumptions": []
@@ -22194,7 +22149,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-26T14:34:28.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-26T19:16:27.173Z",
       "stale": false,
@@ -22241,7 +22196,7 @@
       "shipping": null,
       "conditionalPrice": null,
       "publishedAt": "2026-10-24T06:26:26.000Z",
-      "observedAt": "2026-10-26T19:16:27.173Z",
+      "observedAt": "2026-10-26T23:09:01.370Z",
       "productKey": null,
       "firstSeen": "2026-10-24T10:54:50.124Z",
       "stale": false,
